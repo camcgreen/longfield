@@ -1,0 +1,15 @@
+.button {
+  cursor: pointer;
+  background-color: var(--colButtonsHighlight);
+  color: var(--colTitles);
+  padding: 20px 30px;
+  transition: background-color 0.2s ease-in-out;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+}
+
+.button:hover {
+  background-color: var(--colButtonHover);
+}

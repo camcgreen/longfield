@@ -1,16 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  --colBody: #1A2B3B;
+  --colTitles: #163A67;
+  --colButtonsHighlight: #FFA403;
+  --colButtonHover: #EF9B06;
+  --colFooter: #202C38;
+  --colBg: #DDE9F7;
+  --colGrey: #808080;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: 'Outfit', Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--colBody);
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
-* {
-  box-sizing: border-box;
+.wrapper {
+  /* position: relative; */
+  width: 100vw;
+  max-width: 100%;
 }

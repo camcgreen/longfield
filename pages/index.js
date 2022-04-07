@@ -20,11 +20,11 @@ export default function Home() {
       <main>
         <Hero />
         <Endorsements />
-        {/* <Services />
+        <Services />
         <Stats />
-        <Partnered /> */}
+        <Partnered />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

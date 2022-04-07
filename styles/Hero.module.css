@@ -67,7 +67,7 @@
     position: relative;
     order: 1;
     /* background-color: white; */
-    padding: 40px;
+    padding: 80px 40px;
     border-radius: 2px;
     display: flex;
     flex-direction: column;

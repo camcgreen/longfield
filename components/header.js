@@ -12,8 +12,9 @@ const Header = () => {
           <li>The Team</li>
           <li>Polymer Distribution</li>
           <li>Contact</li>
+          <li className={styles.dropdown}>English</li>
         </ul>
-        <img className={styles.partner} src='/nav-sterling.png' alt='' />
+        <img className={styles.partner} src='/nav-sterling.svg' alt='' />
       </nav>
     </header>
   );

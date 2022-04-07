@@ -28,3 +28,33 @@
   color: var(--colButtonsHighlight);
   text-align: center;
 }
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid img {
+    width: 150px;
+  }
+
+  .endorsements h1 {
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    /* grid-template-columns: 1fr; */
+    /* width: 75%; */
+    width: auto;
+  }
+
+  .grid img {
+    width: 100px;
+  }
+
+  .endorsements h1 {
+    font-size: 2rem;
+  }
+}

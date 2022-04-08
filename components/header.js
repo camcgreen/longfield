@@ -12,9 +12,15 @@ const Header = () => {
           <li>The Team</li>
           <li>Polymer Distribution</li>
           <li>Contact</li>
-          <li className={styles.dropdown}>English</li>
+          <li className={styles.dropdown}>
+            <span>English</span>
+            <img src='/down.svg' alt='' />
+          </li>
         </ul>
-        <img className={styles.partner} src='/nav-sterling.svg' alt='' />
+        <div>
+          <img className={styles.hamburger} src='/hamburger.svg' alt='' />
+          <img className={styles.partner} src='/nav-sterling.svg' alt='' />
+        </div>
       </nav>
     </header>
   );

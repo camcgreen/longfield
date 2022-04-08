@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
 import Header from '../components/header';
 import Hero from '../components/hero';
 import Endorsements from '../components/endorsements';
@@ -16,7 +15,7 @@ export default function Home() {
         <meta name='description' content='Longfield Polymers' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      {/* <Header /> */}
+      <Header />
       <main>
         <Hero />
         <Endorsements />
@@ -24,7 +23,7 @@ export default function Home() {
         <Stats />
         <Partnered />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

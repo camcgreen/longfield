@@ -48,9 +48,30 @@ const Footer = () => {
           <input type='text' placeholder='your email address' />
           <button>Join</button>
           <li>Follow us:</li>
-          <img src='/linkedin.svg' alt='' />
+          <img className={styles.linkedin} src='/linkedin.svg' alt='' />
         </ul>
       </div>
+      <div className={styles.break}></div>
+      <div className={styles.legal}>
+        <div className={`${styles.column} ${styles.legalLinks}`}>
+          <h1>LEGAL INFORMATION</h1>
+        </div>
+        <div className={`${styles.column} ${styles.legalLinks}`}>
+          <h1>TERMS & CONDITIONS</h1>
+        </div>
+        <div className={`${styles.column} ${styles.legalLinks}`}>
+          <h1>ANTI SLAVERY STATEMENT</h1>
+        </div>
+        <div className={`${styles.column} ${styles.legalLinks}`}>
+          <h1>DOWNLOAD CERTIFICATES</h1>
+        </div>
+      </div>
+      <p className={styles.disclaimer}>
+        Longfield Polymers is the trading name of Longfield Chemicals a limited
+        company which is registered in England and Wales with number 925463 VAT
+        no. GB 344 1687 51, BE 074 8632 538, NL 826434137B01 Registered office -
+        Suite 1, Floor 1, Chelford House, Gadbrook Park, Northwich, CW9 7LN{' '}
+      </p>
     </footer>
   );
 };

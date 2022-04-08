@@ -28,6 +28,15 @@ a {
   box-sizing: border-box;
 }
 
+::placeholder {
+  color: var(--colFooter);
+  opacity: 1;
+  font-size: 1.25rem;
+  font-family: 'Outfit', Arial;
+  font-weight: 300;
+  overflow: visible;
+}
+
 .wrapper {
   /* position: relative; */
   width: 100vw;

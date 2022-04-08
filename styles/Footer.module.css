@@ -126,9 +126,17 @@
 @media (max-width: 1024px) {
   .content {
     flex-direction: column;
+    padding: 0 40px;
   }
 
   .legal {
     flex-direction: column;
+    padding: 0 40px;
+  }
+
+  .disclaimer {
+    margin-top: 40px;
+    padding: 0 40px;
+    padding-bottom: 80px;
   }
 }

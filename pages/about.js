@@ -1,26 +1,20 @@
 import Head from 'next/head';
+import styles from '../styles/About.module.css';
 import Header from '../components/header';
-import Hero from '../components/hero';
-import Endorsements from '../components/endorsements';
-import Services from '../components/services';
-import Stats from '../components/stats';
 import Partnered from '../components/partnered';
 import Footer from '../components/footer';
 
-const Home = () => {
+const About = () => {
   return (
     <div className='wrapper'>
       <Head>
-        <title>Longfield Polymers</title>
+        <title>Longfield Polymers | About</title>
         <meta name='description' content='Longfield Polymers' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Header />
       <main>
-        <Hero />
-        <Endorsements />
-        <Services />
-        <Stats />
+        <h1>About</h1>
         <Partnered />
       </main>
       <Footer />
@@ -28,4 +22,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;

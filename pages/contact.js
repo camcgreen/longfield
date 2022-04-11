@@ -45,6 +45,7 @@ const Contact = () => {
           />
           <label htmlFor='message'>Message</label>
           <input
+            className={styles.message}
             type='text'
             id='message'
             name='message'

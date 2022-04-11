@@ -46,6 +46,15 @@
   border: solid var(--colButtonsHighlight) 1px;
 }
 
+.message {
+  padding: 20px 0 175px 10px !important;
+  /* height: 200px; */
+}
+
+.message::placeholder {
+  /* font-size: 4rem; */
+}
+
 @media (max-width: 1024px) {
   .contact p:first-of-type {
     margin-bottom: 20px;

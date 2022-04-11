@@ -89,6 +89,10 @@
   .hamburger {
     display: block;
   }
+
+  .partner {
+    display: none;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -109,7 +113,7 @@
     margin-right: 0;
   }
 
-  .partner {
+  /* .partner {
     display: none;
-  }
+  } */
 }

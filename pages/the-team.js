@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Team.module.css';
 import Header from '../components/header';
-import Partnered from '../components/partnered';
 import Footer from '../components/footer';
 
 const Team = () => {
@@ -16,7 +15,6 @@ const Team = () => {
       <main className={styles.team}>
         <h1>Under construction</h1>
       </main>
-      <Partnered />
       <Footer />
     </div>
   );

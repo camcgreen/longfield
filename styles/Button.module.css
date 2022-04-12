@@ -13,3 +13,13 @@
 .button:hover {
   background-color: var(--colButtonHover);
 }
+
+.small {
+  max-width: 50%;
+}
+
+@media (max-width: 768px) {
+  .small {
+    max-width: 100%;
+  }
+}

@@ -51,7 +51,7 @@ const Contact = () => {
             name='message'
             placeholder='Your message'
           />
-          <Button text='SEND MESSAGE' />
+          <Button text='SEND MESSAGE' small={true} />
         </form>
       </main>
       <Partnered />

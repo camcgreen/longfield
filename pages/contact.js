@@ -4,6 +4,7 @@ import Header from '../components/header';
 import Partnered from '../components/partnered';
 import Footer from '../components/footer';
 import Button from '../components/button';
+import Menu from '../components/menu';
 
 const Contact = () => {
   return (
@@ -56,6 +57,7 @@ const Contact = () => {
       </main>
       <Partnered />
       <Footer />
+      <Menu />
     </div>
   );
 };

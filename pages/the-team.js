@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Team.module.css';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Menu from '../components/menu';
 
 const Team = () => {
   return (
@@ -16,6 +17,7 @@ const Team = () => {
         <h1>Under construction</h1>
       </main>
       <Footer />
+      <Menu />
     </div>
   );
 };

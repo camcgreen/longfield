@@ -42,3 +42,8 @@ a {
   width: 100vw;
   max-width: 100%;
 }
+
+.active {
+  opacity: 1 !important;
+  pointer-events: all !important;
+}

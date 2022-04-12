@@ -3,6 +3,7 @@ import styles from '../styles/About.module.css';
 import Header from '../components/header';
 import Partnered from '../components/partnered';
 import Footer from '../components/footer';
+import Menu from '../components/menu';
 
 const About = () => {
   return (
@@ -92,6 +93,7 @@ const About = () => {
       </main>
       <Partnered />
       <Footer />
+      <Menu />
     </div>
   );
 };

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Products.module.css';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Menu from '../components/menu';
 
 const Products = () => {
   return (
@@ -57,6 +58,7 @@ const Products = () => {
         </div>
       </main>
       <Footer />
+      <Menu />
     </div>
   );
 };

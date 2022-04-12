@@ -1,0 +1,24 @@
+.hamburger {
+  display: none;
+  /* margin-right: 40px; */
+  cursor: pointer;
+  fill: black;
+  transition: fill 0.2s ease-in-out;
+}
+
+.hamburger:hover {
+  fill: var(--colButtonsHighlight);
+}
+
+@media (max-width: 1700px) {
+  .hamburger {
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hamburger {
+    width: 40px;
+    margin-right: 0;
+  }
+}

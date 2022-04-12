@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from '../styles/Header.module.css';
+import Hamburger from './svg/hamburger';
 
 const Header = () => {
   return (
@@ -33,7 +34,8 @@ const Header = () => {
           </li>
         </ul>
         <div>
-          <img className={styles.hamburger} src='/hamburger.svg' alt='' />
+          {/* <img className={styles.hamburger} src='/hamburger.svg' alt='' /> */}
+          <Hamburger />
           <img className={styles.partner} src='/nav-sterling.svg' alt='' />
         </div>
       </nav>

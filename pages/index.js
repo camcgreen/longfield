@@ -6,6 +6,7 @@ import Services from '../components/services';
 import Stats from '../components/stats';
 import Partnered from '../components/partnered';
 import Footer from '../components/footer';
+import Menu from '../components/menu';
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         <Partnered />
       </main>
       <Footer />
+      <Menu />
     </div>
   );
 };

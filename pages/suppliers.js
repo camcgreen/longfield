@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Suppliers.module.css';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Menu from '../components/menu';
 
 const Suppliers = () => {
   return (
@@ -106,6 +107,7 @@ const Suppliers = () => {
         </div>
       </main>
       <Footer />
+      <Menu />
     </div>
   );
 };

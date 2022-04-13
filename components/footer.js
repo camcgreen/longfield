@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/Footer.module.css';
 
 const Footer = () => {
@@ -6,12 +7,27 @@ const Footer = () => {
       <div className={styles.content}>
         <ul className={`${styles.column} ${styles.links}`}>
           <h1>NAVIGATION</h1>
-          <li>HOME</li>
-          <li>ABOUT</li>
-          <li>THE TEAM</li>
-          <li>SUPPLIERS</li>
-          <li>POLYMER DISTRIBUTION</li>
-          <li>CONTACT</li>
+          <Link href='/'>
+            <li>HOME</li>
+          </Link>
+          <Link href='/about'>
+            <li>ABOUT</li>
+          </Link>
+          <Link href='/the-team'>
+            <li>THE TEAM</li>
+          </Link>
+          <Link href='/suppliers'>
+            <li>SUPPLIERS</li>
+          </Link>
+          <Link href='/products'>
+            <li>PRODUCTS</li>
+          </Link>
+          <Link href='/polymer-distribution'>
+            <li>POLYMER DISTRIBUTION</li>
+          </Link>
+          <Link href='/contact'>
+            <li>CONTACT</li>
+          </Link>
         </ul>
         <ul className={styles.column}>
           <h1>EUROPE</h1>
@@ -21,7 +37,15 @@ const Footer = () => {
           <li>NORTHWICH</li>
           <li>CW9 7LN</li>
           <li>UNITED KINGDOM</li>
-          <li className={styles.email}>E. info@longchem.co.uk</li>
+          <li className={styles.email}>
+            <a
+              href='mailto:info@longchem.co.uk'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              E. info@longchem.co.uk
+            </a>
+          </li>
         </ul>
         <ul className={styles.column}>
           <h1>USA</h1>
@@ -41,7 +65,15 @@ const Footer = () => {
           <li>Address 4</li>
           <li>Address 5</li>
           <li>China</li>
-          <li className={styles.email}>E. info@longchem.co.uk</li>
+          <li className={styles.email}>
+            <a
+              href='mailto:info@longchem.co.uk'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              E. info@longchem.co.uk
+            </a>
+          </li>
         </ul>
         <ul className={`${styles.column} ${styles.form}`}>
           <h1>STAY UP TO DATE</h1>

@@ -11,7 +11,7 @@ const Menu = ({ active = false }) => {
     >
       <ul className={styles.links}>
         <li>
-          <img src='/sterling-grey.png' alt='' />
+          <img src='/nav-sterling.svg' alt='' />
         </li>
         <Link href='/about'>
           <li>About</li>

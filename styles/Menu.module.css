@@ -51,7 +51,7 @@
 }
 
 .links li img {
-  width: 150px;
+  width: 350px;
 }
 
 @media (max-width: 1024px) {
@@ -62,7 +62,7 @@
   }
 
   .links li img {
-    width: 125px;
+    width: 200x;
   }
 }
 
@@ -72,6 +72,6 @@
   }
 
   .links li img {
-    width: 75px;
+    width: 150px;
   }
 }

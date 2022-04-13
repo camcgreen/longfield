@@ -1,3 +1,161 @@
 .team {
   padding: 80px 150px;
 }
+
+.team h1 {
+  font-size: 3rem;
+  color: var(--colTitles);
+  margin-bottom: 60px;
+}
+
+.team p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  max-width: 700px;
+  line-height: 2em;
+  margin-bottom: 60px;
+}
+
+.photos {
+  /* position: relative; */
+}
+
+.row3 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.profile img {
+  width: calc((100vw - 315px - 80px) / 3);
+  /* aspect-ratio: 1; */
+  height: 450px;
+  object-fit: cover;
+  margin-right: 40px;
+}
+
+.row3 .profile:last-of-type img {
+  margin-right: 0;
+}
+
+.row2 .profile:last-of-type img {
+  margin-right: 0;
+}
+
+/* .row2 .profile img {
+  margin-right: 40px;
+} */
+
+
+.profile h2 {
+  margin-top: 10px;
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+.profile h2:nth-of-type(2) {
+  color: #838383;
+  margin-top: 0;
+  font-weight: 200;
+}
+
+.supplementary {
+  display: flex;
+  flex-direction: row;
+}
+
+.suppProfile {
+  display: flex;
+  flex-direction: column;
+}
+
+.suppProfile img {
+  width: calc((100vw - 315px - 80px) / 5);
+  /* aspect-ratio: 1; */
+  height: 265px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.suppProfile h2 {
+  font-size: 1rem;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.suppProfile h2:nth-of-type(2) {
+  color: #838383;
+  margin-top: 0;
+  font-weight: 200;
+}
+
+.supplementary .suppProfile:last-of-type img {
+  margin-right: 0;
+}
+
+@media (max-width: 1024px) {
+  .row3, .row2 {
+    flex-direction: column;
+  }
+
+  .supplementary {
+    flex-direction: column;
+  }
+
+  .profile img {
+    width: calc(100vw - 315px);
+    margin-right: 0;
+    aspect-ratio: 1;
+    height: auto;
+  }
+
+  .supplementary img {
+    width: calc(100vw - 315px);
+    margin-right: 0;
+    aspect-ratio: 1;
+    height: auto;
+  }
+
+  .suppProfile {
+    margin-bottom: 60px;
+  }
+
+  .suppProfile h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .team {
+    padding: 80px 40px;
+  }
+
+  .team h1 {
+    font-size: 2rem;
+  }
+
+  .team p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .profile img {
+    width: calc(100vw - 95px);
+    margin-right: 0;
+  }
+
+  .profile h2 {
+    font-size: 1.25rem;
+  }
+}

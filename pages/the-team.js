@@ -32,7 +32,11 @@ const Team = () => {
                   alt='Stephen Kilburn - Chief Operating Officer'
                 />
                 <div className={styles.overlay}>
-                  <img className={styles.linkedin} src='/linkedin.png' alt='' />
+                  <img
+                    className={styles.linkedinLogo}
+                    src='/linkedin-logo.png'
+                    alt=''
+                  />
                 </div>
               </div>
               <h2>Stephen Kilburn</h2>
@@ -45,7 +49,11 @@ const Team = () => {
                   alt='Stuart Forsyth - Chief Executive Officer'
                 />
                 <div className={styles.overlay}>
-                  <img className={styles.linkedin} src='/linkedin.png' alt='' />
+                  <img
+                    className={styles.linkedinLogo}
+                    src='/linkedin-logo.png'
+                    alt=''
+                  />
                 </div>
               </div>
               <h2>Stuart Forsyth</h2>
@@ -58,7 +66,11 @@ const Team = () => {
                   alt='Louise Georgiou - Chief Finance Officer'
                 />
                 <div className={styles.overlay}>
-                  <img className={styles.linkedin} src='/linkedin.png' alt='' />
+                  <img
+                    className={styles.linkedinLogo}
+                    src='/linkedin-logo.png'
+                    alt=''
+                  />
                 </div>
               </div>
               <h2>Louise Georgiou</h2>
@@ -70,7 +82,11 @@ const Team = () => {
               <div className={styles.image}>
                 <img src='/mark.jpg' alt='Mark Pepper - Director' />
                 <div className={styles.overlay}>
-                  <img className={styles.linkedin} src='/linkedin.png' alt='' />
+                  <img
+                    className={styles.linkedinLogo}
+                    src='/linkedin-logo.png'
+                    alt=''
+                  />
                 </div>
               </div>
               <h2>Mark Pepper</h2>
@@ -80,7 +96,11 @@ const Team = () => {
               <div className={styles.image}>
                 <img src='/shane.jpg' alt='Shane Richardson - Director' />
                 <div className={styles.overlay}>
-                  <img className={styles.linkedin} src='/linkedin.png' alt='' />
+                  <img
+                    className={styles.linkedinLogo}
+                    src='/linkedin-logo.png'
+                    alt=''
+                  />
                 </div>
               </div>
               <h2>Shane Richardson</h2>
@@ -92,7 +112,11 @@ const Team = () => {
               <div className={styles.image}>
                 <img src='/mark.jpg' alt='Neil Croft - Head of Operations' />
                 <div className={styles.overlay}>
-                  <img className={styles.linkedin} src='/linkedin.png' alt='' />
+                  <img
+                    className={styles.linkedinLogo}
+                    src='/linkedin-logo.png'
+                    alt=''
+                  />
                 </div>
               </div>
               <h2>Neil Croft</h2>
@@ -105,7 +129,11 @@ const Team = () => {
                   alt='Arthur Grant - Consultant Head of Resources'
                 />
                 <div className={styles.overlay}>
-                  <img className={styles.linkedin} src='/linkedin.png' alt='' />
+                  <img
+                    className={styles.linkedinLogo}
+                    src='/linkedin-logo.png'
+                    alt=''
+                  />
                 </div>
               </div>
               <h2>Arthur Grant</h2>
@@ -117,7 +145,11 @@ const Team = () => {
               <div className={styles.image}>
                 <img src='/tim.jpg' alt='Tim Hughes - Credit Controller' />
                 <div className={styles.overlay}>
-                  <img className={styles.linkedin} src='/linkedin.png' alt='' />
+                  <img
+                    className={styles.linkedinLogo}
+                    src='/linkedin-logo.png'
+                    alt=''
+                  />
                 </div>
               </div>
               <h2>Tim Hughes</h2>
@@ -130,7 +162,11 @@ const Team = () => {
                   alt='Harry Forsyth - Commercial Executive'
                 />
                 <div className={styles.overlay}>
-                  <img className={styles.linkedin} src='/linkedin.png' alt='' />
+                  <img
+                    className={styles.linkedinLogo}
+                    src='/linkedin-logo.png'
+                    alt=''
+                  />
                 </div>
               </div>
               <h2>Harry Forsyth</h2>
@@ -140,7 +176,11 @@ const Team = () => {
               <div className={styles.image}>
                 <img src='/zoe.jpg' alt='Zoe Gallimore - Accounts Assistant' />
                 <div className={styles.overlay}>
-                  <img className={styles.linkedin} src='/linkedin.png' alt='' />
+                  <img
+                    className={styles.linkedinLogo}
+                    src='/linkedin-logo.png'
+                    alt=''
+                  />
                 </div>
               </div>
               <h2>Zoe Gallimore</h2>
@@ -153,7 +193,11 @@ const Team = () => {
                   alt='Lovisa Nygren - Logistics Controller'
                 />
                 <div className={styles.overlay}>
-                  <img className={styles.linkedin} src='/linkedin.png' alt='' />
+                  <img
+                    className={styles.linkedinLogo}
+                    src='/linkedin-logo.png'
+                    alt=''
+                  />
                 </div>
               </div>
               <h2>Lovisa Nygren</h2>
@@ -166,7 +210,11 @@ const Team = () => {
                   alt='Polaris Zhang - Representative in China'
                 />
                 <div className={styles.overlay}>
-                  <img className={styles.linkedin} src='/linkedin.png' alt='' />
+                  <img
+                    className={styles.linkedinLogo}
+                    src='/linkedin-logo.png'
+                    alt=''
+                  />
                 </div>
               </div>
               <h2>Polaris Zhang</h2>

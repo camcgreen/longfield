@@ -138,7 +138,7 @@
   transition: opacity 0.2s ease-in-out;
 }
 
-.linkedin {
+.linkedinLogo {
   width: calc(635px / 10) !important;
   height: calc(540px / 10) !important;
   /* width: 60px !important; */

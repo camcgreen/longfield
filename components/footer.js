@@ -152,7 +152,11 @@ const Footer = () => {
           <button>Join</button>
           <li>Follow us:</li>
           {/* <img className={styles.linkedin} src='/linkedin.svg' alt='' /> */}
-          <img className={styles.linkedin} src='/linkedin.png' alt='' />
+          <img
+            className={styles.linkedinLogo}
+            src='/linkedin-logo.png'
+            alt=''
+          />
         </ul>
       </div>
       <div className={styles.break}></div>

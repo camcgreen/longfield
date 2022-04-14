@@ -27,7 +27,8 @@
 .column h1 {
   font-size: 1.25rem;
   font-weight: bold;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
+  margin-bottom: 20px;
   cursor: pointer;
   display: flex;
   align-items: center;

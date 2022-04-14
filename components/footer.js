@@ -151,7 +151,8 @@ const Footer = () => {
           <input type='text' placeholder='your email address' />
           <button>Join</button>
           <li>Follow us:</li>
-          <img className={styles.linkedin} src='/linkedin.svg' alt='' />
+          {/* <img className={styles.linkedin} src='/linkedin.svg' alt='' /> */}
+          <img className={styles.linkedin} src='/linkedin.png' alt='' />
         </ul>
       </div>
       <div className={styles.break}></div>

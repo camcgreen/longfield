@@ -27,6 +27,15 @@ a {
   text-decoration: none;
   box-sizing: border-box;
 }
+/* 
+input {
+  outline: none;
+  border: solid black 1px;
+}
+
+input:focus {
+  border: solid var(--colButtonsHighlight) 1px;
+} */
 
 ::placeholder {
   color: var(--colFooter);

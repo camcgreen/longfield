@@ -24,12 +24,13 @@ const About = () => {
           <img className={styles.heroImage} src='/dock.svg' alt='' />
           <div className={styles.fullWidth}>
             <p>
-              Founded in 1968, Longfield remains the UK’s leading independent
-              polymer distributor. Our partnerships with some of the World’s
-              leading producers of polymer, allied to our low cost base business
-              model, enable us to supply the UK with world class polymers at low
-              prices. Typically we distribute around 25k tonnes of polymers per
-              month. High class polymers at the worlds most competitive prices
+              Trusted by the world’s leading polymer producers since 1968, our
+              focus and commitment to each individual customer and supplier,
+              along with our combined 50 years of knowledge and continual and
+              effective improvement of environmental performance has not only
+              earned us multiple accreditations, but ensure that we continue to
+              supply world class polymers at low prices globally while upkeeping
+              our core values of integrity, focus and trust.
             </p>
           </div>
           <div>
@@ -49,20 +50,22 @@ const About = () => {
           <div>
             <h1>Market Knowledge</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt Established 1968 combined knowledge
-              of 50 years Network of worldwide suppliers Knowledge of
-              outsourcing logistics, prices,timely, contacts What, when, who
+              Established in 1968, we ensure that our worldwide network of
+              suppliers benefit from our combined 50 years of experience and
+              market knowledge. We work closely with a trusted network of
+              logistics companies to ensure that products are delivered at the
+              best price within a set timeframe.
             </p>
           </div>
           <div>
             <h1>Sustainability</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut. Clean Sweep. ISO
-              14001
+              Our integral sustainability management allows us to continue our
+              work while minimising our environmental impact. We will achieve
+              this by ensuring the improvement of our environmental performance,
+              setting and monitoring sustainability targets, and communicating
+              with our partners to confirm that our sustainability goals are met
+              and upheld both within and outside of our industry.
             </p>
           </div>
           <img src='/clean-sweep.jpg' alt='' />
@@ -72,20 +75,23 @@ const About = () => {
           <div>
             <h1>Our Values</h1>
             <p>
-              Our core values are diligent focus, integrity, trust, being
-              results driven and organisational transparency. We expect our team
-              to act transparently and with integrity, evidencing our values at
-              all times.
+              At Longfield, we ensure that we put our heart into every decision
+              we make. We focus on each individual customer and are committed to
+              doing what is right for them, in every action demonstrating our
+              integrity while remaining open and honest about what we do and how
+              we do it. These core values also help us to support and inspire
+              our colleagues, encouraging them to be the best they can be and
+              achieve great things.
             </p>
           </div>
           <div>
             <h1>Our Accreditations</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut. Link. ISO 9001, ISO
-              14001, ICO
+              We are proud to be accredited with ISO 9001, ISO 14001 and ICO
+              certifications. These acknowledgements not only serve as proof of
+              our high quality services and help to inspire trust in our global
+              network of suppliers, but encourage us to upkeep our excellent
+              standards of practice.
             </p>
           </div>
           <img src='/accreditations.png' alt='' />

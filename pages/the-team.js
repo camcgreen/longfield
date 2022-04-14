@@ -16,9 +16,12 @@ const Team = () => {
       <main className={styles.team}>
         <h1>Our team</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
+          We strive to ensure that all of our team members uphold our core
+          values, putting these at the heart of every decision they make.
+        </p>
+        <p>
+          We want everyone at Longfield to feel proud of the work they do, the
+          company they work for and the difference that they make.
         </p>
         <div className={styles.photos}>
           <div className={styles.row3}>

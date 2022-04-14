@@ -25,16 +25,14 @@ const PolymerDistribution = () => {
           efficient service for all your requirements
         </h1>
         <p>
-          As the UK’s leading independent polymer distributor, with supply
-          partners all over the World, we are able to provide a fast and
-          efficient service for all your requirementsLorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum
+          As a globally trusted polymer distributor, with supply partners all
+          over the World, we are able to provide a fast and efficient service
+          for all your requirements. From Pallet orders to Trailer Deliveries,
+          we ensure the same level of focus, dedication and commitment to any
+          level of order or customer. Whether we’re distributing locally or
+          globally, we strive to maintain strong relationships with all of our
+          customers and suppliers, guaranteeing reliable and high quality
+          production and distribution at a low cost for all.
         </p>
       </main>
       <Footer />

@@ -62,19 +62,24 @@ const Suppliers = () => {
           <div>
             <img src='/c-ineos.png' alt='Ineos Styrolution' />
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut
+              INEOS Styrolution is the leading, global styrenics supplier with a
+              focus on styrene monomer, polystyrene, ABS Standard and styrenic
+              specialties. With world-class production facilities and more than
+              90 years of experience, INEOS Styrolution helps its customers
+              succeed by offering the best possible solution, designed to give
+              them a competitive edge in their markets.
             </p>
           </div>
           <div>
             <img src='/c-formosa-plastics.png' alt='Formosa Plastics' />
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut
+              Founded in 1978, Formosa Plastics Corporation, U.S.A. (Formosa
+              Plastics) is a growing, vertically-integrated supplier of plastic
+              resins and petrochemicals. With annual revenues of more than $5
+              billion, we employ over 3,000 people who operate over 20
+              production units in five business divisions – Olefins,
+              Polyolefins, Vinyl, Specialty Polyvinyl Chloride, and
+              Chlor-Alkali.
             </p>
           </div>
           <div>
@@ -89,19 +94,18 @@ const Suppliers = () => {
           <div>
             <img src='/c-unipetrol.png' alt='Unipetrol' />
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut
+              The ORLEN Unipetrol refinery and petrochemical group constitutes
+              an important part of the Czech industry. It is the only crude oil
+              processor in the Czech Republic, one of the most important
+              producers of plastics and the owner of the largest network of
+              filling stations Benzina ORLEN.
             </p>
           </div>
           <div>
             <img src='/c-sibur.png' alt='Sibur' />
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut
+              SIBUR is one of the world’s fastest-growing petrochemical players
+              and Russia’s leading polymer and rubber manufacturer.
             </p>
           </div>
         </div>

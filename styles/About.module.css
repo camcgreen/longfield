@@ -20,7 +20,8 @@
 }
 
 .grid h1 {
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: 3rem;
 }
 
 .grid p {
@@ -66,7 +67,7 @@
 
 .highlight {
   color: var(--colButtonsHighlight) !important;
-  max-width: 50% !important;
+  max-width: 80% !important;
 }
 
 @media (max-width: 1024px) {

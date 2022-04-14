@@ -66,8 +66,13 @@
 }
 
 .column input {
-  border: none;
+  outline: none;
+  border: solid var(--colBody) 1px;
   padding: 15px 100px 15px 10px;
+}
+
+.column input:focus {
+  border: solid var(--colButtonsHighlight) 1px;
 }
 
 .column button {

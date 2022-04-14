@@ -34,7 +34,7 @@ const Team = () => {
                 <div className={styles.overlay}>
                   <img
                     className={styles.linkedinLogo}
-                    src='/linkedin-logo.png'
+                    src='/random.svg'
                     alt=''
                   />
                 </div>
@@ -51,7 +51,7 @@ const Team = () => {
                 <div className={styles.overlay}>
                   <img
                     className={styles.linkedinLogo}
-                    src='/linkedin-logo.png'
+                    src='/random.svg'
                     alt=''
                   />
                 </div>
@@ -68,7 +68,7 @@ const Team = () => {
                 <div className={styles.overlay}>
                   <img
                     className={styles.linkedinLogo}
-                    src='/linkedin-logo.png'
+                    src='/random.svg'
                     alt=''
                   />
                 </div>
@@ -84,7 +84,7 @@ const Team = () => {
                 <div className={styles.overlay}>
                   <img
                     className={styles.linkedinLogo}
-                    src='/linkedin-logo.png'
+                    src='/random.svg'
                     alt=''
                   />
                 </div>
@@ -98,7 +98,7 @@ const Team = () => {
                 <div className={styles.overlay}>
                   <img
                     className={styles.linkedinLogo}
-                    src='/linkedin-logo.png'
+                    src='/random.svg'
                     alt=''
                   />
                 </div>
@@ -114,7 +114,7 @@ const Team = () => {
                 <div className={styles.overlay}>
                   <img
                     className={styles.linkedinLogo}
-                    src='/linkedin-logo.png'
+                    src='/random.svg'
                     alt=''
                   />
                 </div>
@@ -131,7 +131,7 @@ const Team = () => {
                 <div className={styles.overlay}>
                   <img
                     className={styles.linkedinLogo}
-                    src='/linkedin-logo.png'
+                    src='/random.svg'
                     alt=''
                   />
                 </div>
@@ -147,7 +147,7 @@ const Team = () => {
                 <div className={styles.overlay}>
                   <img
                     className={styles.linkedinLogo}
-                    src='/linkedin-logo.png'
+                    src='/random.svg'
                     alt=''
                   />
                 </div>
@@ -164,7 +164,7 @@ const Team = () => {
                 <div className={styles.overlay}>
                   <img
                     className={styles.linkedinLogo}
-                    src='/linkedin-logo.png'
+                    src='/random.svg'
                     alt=''
                   />
                 </div>
@@ -178,7 +178,7 @@ const Team = () => {
                 <div className={styles.overlay}>
                   <img
                     className={styles.linkedinLogo}
-                    src='/linkedin-logo.png'
+                    src='/random.svg'
                     alt=''
                   />
                 </div>
@@ -195,7 +195,7 @@ const Team = () => {
                 <div className={styles.overlay}>
                   <img
                     className={styles.linkedinLogo}
-                    src='/linkedin-logo.png'
+                    src='/random.svg'
                     alt=''
                   />
                 </div>
@@ -212,7 +212,7 @@ const Team = () => {
                 <div className={styles.overlay}>
                   <img
                     className={styles.linkedinLogo}
-                    src='/linkedin-logo.png'
+                    src='/random.svg'
                     alt=''
                   />
                 </div>

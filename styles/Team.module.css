@@ -139,10 +139,10 @@
 }
 
 .linkedinLogo {
-  width: calc(635px / 10) !important;
-  height: calc(540px / 10) !important;
-  /* width: 60px !important; */
-  /* height: 60px !important; */
+  /* width: calc(635px / 10) !important;
+  height: calc(540px / 10) !important; */
+  width: 60px !important;
+  height: 60px !important;
   margin: 0 !important;
   cursor: pointer;
 }

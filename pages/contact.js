@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Contact.module.css';
 import Header from '../components/header';
-import Partnered from '../components/partnered';
 import Footer from '../components/footer';
 import Button from '../components/button';
 import Menu from '../components/menu';
@@ -55,7 +54,6 @@ const Contact = () => {
           <Button text='SEND MESSAGE' small={true} />
         </form>
       </main>
-      <Partnered />
       <Footer />
       <Menu />
     </div>

@@ -28,6 +28,14 @@
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 80px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.column h1 img {
+  width: 12px;
+  margin-left: 10px;
 }
 
 .column li {
@@ -129,14 +137,41 @@
     padding: 0 40px;
   }
 
+  .column h1 {
+    margin-bottom: 20px;
+  }
+
+  .email {
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
+
+  .break {
+    margin-top: 40px;
+  }
+
+  .legalLinks:first-of-type {
+    margin-top: 40px;;
+  }
+
+  .legalLinks {
+    margin-top: 20px;
+  }
+
   .legal {
     flex-direction: column;
     padding: 0 40px;
   }
 
   .disclaimer {
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 0 40px;
     padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .column h1, .column li {
+    font-size: 1rem;
   }
 }

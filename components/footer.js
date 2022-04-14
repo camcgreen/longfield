@@ -154,7 +154,8 @@ const Footer = () => {
           {/* <img className={styles.linkedin} src='/linkedin.svg' alt='' /> */}
           <img
             className={styles.linkedinLogo}
-            src='/linkedin-logo.png'
+            // src='/linkedin-logo.png'
+            src='/monitor.svg'
             alt=''
             style={{ display: 'block !important' }}
           />

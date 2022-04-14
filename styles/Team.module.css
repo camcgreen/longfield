@@ -151,8 +151,12 @@
 }
 
 @media (max-width: 1024px) {
+  .team {
+    padding: 80px 40px;
+  }
+
   .team h1, .team p {
-    text-align: center;
+    /* text-align: center; */
     max-width: 100%;
   }
 
@@ -165,21 +169,23 @@
   }
 
   .profile img {
-    width: calc(100vw - 315px);
+    /* width: calc(100vw - 315px); */
+    width: calc(100vw - 95px);
     margin-right: 0;
     aspect-ratio: 1;
     height: auto;
   }
 
   .supplementary img {
-    width: calc(100vw - 315px);
+    /* width: calc(100vw - 315px); */
+    width: calc(100vw - 95px);
     margin-right: 0;
     aspect-ratio: 1;
     height: auto;
   }
 
   .profile h2 {
-    text-align: center;
+    /* text-align: center; */
   }
 
   .suppProfile {
@@ -192,7 +198,7 @@
 
   .suppProfile h2 {
     font-size: 1.5rem;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .overlay {
@@ -201,9 +207,9 @@
 }
 
 @media (max-width: 768px) {
-  .team {
+  /* .team {
     padding: 80px 40px;
-  }
+  } */
 
   .team h1 {
     font-size: 2rem;

@@ -88,7 +88,7 @@ const Footer = () => {
         <ul
           className={styles.column}
           // style={{ marginTop: showUsa ? 80 : 40 }}
-          style={{ marginTop: 20 }}
+          // style={{ marginTop: 20 }}
         >
           <h1
             style={{ marginBottom: showUsa ? 20 : 0 }}
@@ -117,7 +117,7 @@ const Footer = () => {
         <ul
           className={styles.column}
           // style={{ marginTop: showChina ? 80 : 40 }}
-          style={{ marginTop: 20 }}
+          // style={{ marginTop: 20 }}
         >
           <h1
             style={{ marginBottom: showChina ? 20 : 0 }}

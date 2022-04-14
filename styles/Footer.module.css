@@ -137,6 +137,10 @@
     padding: 0 40px;
   }
 
+  .column:nth-of-type(3), .column:nth-of-type(4) {
+    margin-top: 20px;
+  }
+
   .column h1 {
     margin-bottom: 20px;
   }

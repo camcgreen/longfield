@@ -156,6 +156,7 @@ const Footer = () => {
             className={styles.linkedinLogo}
             src='/linkedin-logo.png'
             alt=''
+            style={{ display: 'block !important' }}
           />
         </ul>
       </div>

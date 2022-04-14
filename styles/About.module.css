@@ -57,6 +57,7 @@
 .heroImage {
   /* height: 400px !important; */
   max-width: 100% !important;
+  height: 550px;
 }
 
 .fullWidth {
@@ -72,6 +73,7 @@
 
 @media (max-width: 1024px) {
   .heroImage {
+    height: auto;
     width: 80% !important;
   }
 

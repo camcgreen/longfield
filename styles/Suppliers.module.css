@@ -37,10 +37,10 @@
 }
 
 .suppliers h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--colButtonsHighlight);
   text-align: center;
-  max-width: 45%;
+  max-width: 75%;
   margin-bottom: 60px;
 }
 
@@ -75,7 +75,7 @@
   }
 
   .suppliers h2 {
-    max-width: 75%;
+    max-width: 100%;
   }
 
   .grid {

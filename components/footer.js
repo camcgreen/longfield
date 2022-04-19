@@ -58,13 +58,19 @@ const Footer = () => {
           >
             <h1
               style={{ marginBottom: showEurope ? 20 : 0 }}
-              onClick={() => setShowEurope(!showEurope)}
+              onClick={() => {
+                if (window.innerWidth <= 1024) {
+                  setShowEurope(!showEurope);
+                }
+              }}
             >
               EUROPE <img src={showEurope ? '/fUp.svg' : '/fDown.svg'} alt='' />
             </h1>
             <div
               className={styles.europe}
-              style={{ display: showEurope ? 'block' : 'none' }}
+              style={{
+                display: showEurope ? 'block' : 'none',
+              }}
             >
               <li>SUITE 1, FLOOR 1</li>
               <li>CHELFORD HOUSE</li>
@@ -74,6 +80,7 @@ const Footer = () => {
               <li>UNITED KINGDOM</li>
               <li
                 className={styles.email}
+                // style={{ marginBottom: showEurope ? 40 : 0 }}
                 style={{ marginBottom: showEurope ? 40 : 0 }}
               >
                 <a
@@ -93,7 +100,12 @@ const Footer = () => {
           >
             <h1
               style={{ marginBottom: showUsa ? 20 : 0 }}
-              onClick={() => setShowUsa(!showUsa)}
+              // onClick={() => setShowUsa(!showUsa)}
+              onClick={() => {
+                if (window.innerWidth <= 1024) {
+                  setShowUsa(!showUsa);
+                }
+              }}
             >
               USA <img src={showUsa ? '/fUp.svg' : '/fDown.svg'} alt='' />
             </h1>
@@ -101,14 +113,16 @@ const Footer = () => {
               className={styles.usa}
               style={{ display: showUsa ? 'block' : 'none' }}
             >
-              <li>4750 SHERWOOD COMMON BLVD. </li>
+              <li>4750 SHERWOOD</li>
+              <li>COMMON BLVD.</li>
               <li>SUITE 100</li>
               <li>BATON ROUGE</li>
               <li>LOUISIANA</li>
               <li>70816</li>
               <li>USA</li>
               <li
-                className={styles.email}
+                className={`${styles.email} ${styles.emailUsa}`}
+                // style={{ marginBottom: showUsa ? 40 : 0 }}
                 style={{ marginBottom: showUsa ? 40 : 0 }}
               >
                 E. TBC@longchem.co.uk
@@ -121,26 +135,33 @@ const Footer = () => {
             // style={{ marginTop: 20 }}
           >
             <h1
+              // style={{ marginBottom: showChina ? 60 : 60 }}
               style={{ marginBottom: showChina ? 20 : 0 }}
-              onClick={() => setShowChina(!showChina)}
+              // onClick={() => setShowChina(!showChina)}
+              onClick={() => {
+                if (window.innerWidth <= 1024) {
+                  setShowChina(!showChina);
+                }
+              }}
             >
-              China <img src={showChina ? '/fUp.svg' : '/fDown.svg'} alt='' />
+              CHINA <img src={showChina ? '/fUp.svg' : '/fDown.svg'} alt='' />
             </h1>
             <div
               className={styles.china}
               style={{ display: showChina ? 'block' : 'none' }}
             >
-              <li>Address 1</li>
-              <li>Address 2</li>
-              <li>Address 3</li>
-              <li>Address 4</li>
-              <li>Address 5</li>
+              <li>ADDRESS 1</li>
+              <li>ADDRESS 2</li>
+              <li>ADDRESS 3</li>
+              <li>ADDRESS 4</li>
+              <li>ADDRESS 5</li>
               <li>China</li>
               <li className={styles.email}>
                 <a
                   href='mailto:info@longchem.co.uk'
                   target='_blank'
                   rel='noopener noreferrer'
+                  style={{ marginBottom: showChina ? 40 : 0 }}
                 >
                   E. info@longchem.co.uk
                 </a>
@@ -149,7 +170,7 @@ const Footer = () => {
           </ul>
           <ul className={`${styles.column} ${styles.form}`}>
             <h1>STAY UP TO DATE</h1>
-            <input type='text' placeholder='your email address' />
+            <input type='text' placeholder='your email' />
             <button>Join</button>
             <li>Follow us:</li>
             {/* <img className={styles.linkedin} src='/linkedin.svg' alt='' /> */}

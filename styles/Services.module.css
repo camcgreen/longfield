@@ -1,10 +1,19 @@
 .services {
-  width: calc(100% - 300px);
+  /* width: calc(100% - 300px); */
   background-color: var(--colBg);
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+  /* padding: 150px; */
+  /* width: calc(100% - 80px); */
+  padding: 150px 40px;
+}
+
+.services > div {
+  width: calc(100% - 80px);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 150px;
 }
 
 .column {
@@ -23,14 +32,21 @@
 .column p {
   margin-bottom: 80px;
   max-width: 650px;
+  max-width: 75%;
 }
 
 @media (max-width: 1024px) {
   .services {
+    /* flex-direction: column;
+    align-items: center;
+    width: 100%; */
+    padding: 80px 0;
+  }
+
+  .services > div {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 80px 0;
   }
 
   .column:first-of-type {

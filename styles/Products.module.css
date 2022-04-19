@@ -1,9 +1,15 @@
 .products {
-  width: width(100% - 300px);
+  /* width: width(100% - 300px); */
   background-color: var(--colBg);
-  padding: 80px 150px;
+  /* padding: 80px 150px; */
+  padding: 150px 40px;
+  /* display: flex;
+  align-items: center; */
+}
+
+.products > div {
+  width: width(100% - 80px);
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -30,7 +36,7 @@
 }
 
 .details {
-  padding: 80px 150px;
+  padding: 80px 0px;
 }
 
 .block {

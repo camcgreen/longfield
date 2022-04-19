@@ -8,7 +8,7 @@
 html {
   --colBody: #1A2B3B;
   --colTitles: #163A67;
-  --colButtonsHighlight: #FFA403;
+  --colButtonsHighlight: #FFA100;
   --colButtonHover: #EF9B06;
   --colFooter: #202C38;
   --colBg: #DDE9F7;
@@ -48,8 +48,10 @@ input:focus {
 
 .wrapper {
   /* position: relative; */
-  width: 100vw;
-  max-width: 100%;
+  width: calc(100vw - 15px);
+  /* max-width: 100%; */
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .active {

@@ -1,5 +1,10 @@
 .about {
-  padding: 80px 150px;
+  /* padding: 80px 150px; */
+  padding: 80px 40px;
+}
+
+.about > div {
+  width: calc(100% - 80px);
 }
 
 .about h1 {

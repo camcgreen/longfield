@@ -1,7 +1,15 @@
 .stats {
-  width: calc(100% - 300px);
-  padding: 80px 150px;
+  /* width: calc(100% - 300px); */
+  /* padding: 80px 150px; */
+  padding: 150px 40px;
   background-color: white;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.stats > div {
+  width: calc(100% - 80px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,6 +20,8 @@
   color: var(--colButtonsHighlight);
   text-align: center;
   margin-bottom: 80px;
+  /* max-width: 75%; */
+  max-width: 950px;
 }
 
 .stats img {

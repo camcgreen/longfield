@@ -7,7 +7,7 @@ import Menu from '../components/menu';
 
 const Contact = () => {
   return (
-    <div className='wrapper'>
+    <>
       <Head>
         <title>Longfield Polymers | Contact</title>
         <meta name='description' content='Longfield Polymers' />
@@ -15,6 +15,7 @@ const Contact = () => {
       </Head>
       <Header />
       <main className={styles.contact}>
+        {/* <div className='wrapper'> */}
         <h1>Get in touch</h1>
         <p>
           Don’t hesitate to ask us something. Email us directly at{' '}
@@ -53,10 +54,11 @@ const Contact = () => {
           />
           <Button text='SEND MESSAGE' small={true} />
         </form>
+        {/* </div> */}
       </main>
       <Footer />
       <Menu />
-    </div>
+    </>
   );
 };
 

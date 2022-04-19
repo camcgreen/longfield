@@ -10,7 +10,7 @@ import Menu from '../components/menu';
 
 const Home = () => {
   return (
-    <div className='wrapper'>
+    <>
       <Head>
         <title>Longfield Polymers</title>
         <meta name='description' content='Longfield Polymers' />
@@ -19,14 +19,16 @@ const Home = () => {
       <Header />
       <main>
         <Hero />
+        {/* <div className='wrapper'> */}
         <Endorsements />
         <Services />
         <Stats />
         <Partnered />
+        {/* </div> */}
       </main>
       <Footer />
       <Menu />
-    </div>
+    </>
   );
 };
 

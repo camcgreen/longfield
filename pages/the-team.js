@@ -6,7 +6,7 @@ import Menu from '../components/menu';
 
 const Team = () => {
   return (
-    <div className='wrapper'>
+    <>
       <Head>
         <title>Longfield Polymers | The Team</title>
         <meta name='description' content='Longfield Polymers' />
@@ -225,7 +225,7 @@ const Team = () => {
       </main>
       <Footer />
       <Menu />
-    </div>
+    </>
   );
 };
 

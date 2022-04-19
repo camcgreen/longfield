@@ -62,7 +62,8 @@
 .heroImage {
   /* height: 400px !important; */
   max-width: 100% !important;
-  height: 550px;
+  height: 350px;
+  /* height: 550px; */
 }
 
 .fullWidth {

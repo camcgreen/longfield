@@ -3,6 +3,7 @@
   width: 100%;
   height: calc(100vh - 125px);
   min-height: 700px;
+  max-height: 1400px;
   background-color: var(--colBg);
 }
 
@@ -43,6 +44,20 @@
   margin-top: 60px;
   margin-bottom: 60px;
   font-size: 1.5rem;
+}
+
+@media (min-width: 2160px) {
+  .content {
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero img {
+    /* bottom: -10%; */
+    width: 90%;
+    height: 100%;
+    /* left: 0; */
+  }
 }
 
 @media (max-width: 1500px) {

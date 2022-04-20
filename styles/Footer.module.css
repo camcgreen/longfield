@@ -21,7 +21,8 @@
   /* padding: 40px 150px; */
   /* padding: 0 150px; */
   /* padding: 75px 40px; */
-  padding: 50px 40px;
+  /* padding: 50px 40px; */
+  padding: 50px 0;
   padding-top: 75px;
 }
 
@@ -146,7 +147,8 @@
   /* padding: 0px 150px; */
   /* padding: 40px 150px; */
   /* padding: 0 150px; */
-  padding: 75px 40px;
+  /* padding: 75px 40px; */
+  padding: 75px 0;
   /* padding-bottom: 80px; */
   display: flex;
   flex-direction: row;
@@ -174,7 +176,8 @@
   /* padding: 0px 150px; */
   /* padding: 40px 150px; */
   /* padding: 0 150px; */
-  padding: 75px 40px;
+  /* padding: 75px 40px; */
+  padding: 75px 0;
   padding-top: 0;
   /* padding-bottom: 80px; */
   max-width: 1025px;

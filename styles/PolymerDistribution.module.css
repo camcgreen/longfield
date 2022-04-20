@@ -41,6 +41,10 @@
     padding: 80px 40px;
   }
 
+  .content > div {
+    width: 100%;
+  }
+
   .content h1 {
     max-width: 90%;
   }

@@ -79,6 +79,10 @@
 }
 
 @media (max-width: 1024px) {
+  .suppliers > div {
+    width: 100%;
+  }
+
   .suppliers {
     padding: 80px 40px;
   }

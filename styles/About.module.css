@@ -86,6 +86,10 @@
   .about {
     padding: 80px 40px;
   }
+  
+  .about > div {
+    width: 100%;
+  }
 
   .about h1 {
     text-align: center !important;
@@ -108,7 +112,7 @@
 }
 
 @media (max-width: 768px) {
-  .about h1 {
+    .about h1 {
     font-size: 2rem;
   }
 

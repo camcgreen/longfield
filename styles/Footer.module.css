@@ -99,7 +99,7 @@
 .column input {
   outline: none;
   border: solid var(--colBody) 1px;
-  padding: 15px 20px 15px 10px;
+  padding: 15px 70px 15px 10px;
 }
 
 .column input:focus {
@@ -185,6 +185,12 @@
   font-size: 0.8rem;
   line-height: 1.5em;
   font-weight: 200;
+}
+
+@media (max-width: 1370px) {
+  .content, .legal, .disclaimer {
+    padding: 50px 40px;
+  }
 }
 
 @media (max-width: 1024px) {

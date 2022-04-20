@@ -37,7 +37,7 @@
 }
 
 .content p {
-  max-width: 525px;
+  max-width: 500px;
   font-weight: 300;
   /* line-height: 50px; */
   line-height: 2em;
@@ -81,7 +81,7 @@
   .hero {
     display: flex;
     flex-direction: column;
-    height: auto;
+    /* height: auto; */
   }
 
   .hero img {
@@ -90,6 +90,8 @@
     order: 2;
     width: 100%;
     height: 100%;
+    top: 0;
+    left: 0;
   }
 
   .content {
@@ -120,6 +122,10 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    height: auto;
+  }
+
   .content h1 {
     font-size: 2rem;
   }

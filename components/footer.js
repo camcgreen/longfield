@@ -183,7 +183,9 @@ const Footer = () => {
             />
           </ul>
         </div>
-        <div className={styles.break}></div>
+      </div>
+      <div className={styles.break}></div>
+      <div className='wrapper'>
         <div className={styles.legal}>
           <div className={`${styles.column} ${styles.legalLinks}`}>
             <h1>LEGAL INFORMATION</h1>

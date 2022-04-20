@@ -20,7 +20,9 @@
   /* justify-content: center; */
   /* padding: 40px 150px; */
   /* padding: 0 150px; */
-  padding: 75px 40px;
+  /* padding: 75px 40px; */
+  padding: 50px 40px;
+  padding-top: 75px;
 }
 
 .column {
@@ -137,6 +139,7 @@
   /* margin-top: 120px; */
   /* width: calc(100vw - 8px); */
   /* transform: translateX(calc(-1280px / 4)); */
+  /* width: 100vw; */
 }
 
 .legal {
@@ -184,7 +187,7 @@
 @media (max-width: 1024px) {
   .content {
     flex-direction: column;
-    /* padding: 75px 40px; */
+    padding: 75px 40px;
   }
 
   .column:first-of-type {

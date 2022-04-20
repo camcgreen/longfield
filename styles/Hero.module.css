@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   width: 100%;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 125px);
   min-height: 700px;
   background-color: var(--colBg);
 }

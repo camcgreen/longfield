@@ -10,14 +10,10 @@
   fill: var(--colButtonsHighlight);
 }
 
-@media (max-width: 1700px) {
+/* @media (max-width: 1024px) { */
+  @media (max-width: 1280px) {
   .hamburger {
     display: block;
-  }
-}
-
-@media (max-width: 1024px) {
-  .hamburger {
     width: 40px;
     margin-right: 0;
   }

@@ -72,6 +72,10 @@
 }
 
 @media (max-width: 1400px) {
+.content {
+  left: 80px;
+}
+
   .content p {
     /* max-width: 325px; */
   }
@@ -81,6 +85,7 @@
   .hero {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     /* height: auto; */
   }
 
@@ -90,8 +95,9 @@
     order: 2;
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
+    /* bottom: 0; */
+    /* top: 0;
+    left: 0; */
   }
 
   .content {
@@ -124,6 +130,7 @@
 @media (max-width: 768px) {
   .hero {
     height: auto;
+    min-height: calc(100vh - 125px);
   }
 
   .content h1 {

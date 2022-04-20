@@ -44,12 +44,18 @@
   white-space: nowrap;
 }
 
+.active {
+  color: var(--colButtonsHighlight);
+}
+
 .links li:last-of-type {
   margin-right: 0;
 }
 
 .links li:hover {
-  color: var(--colButtonsHighlight);
+  /* color: var(--colButtonsHighlight) !important; */
+  /* color: var(--colTitles) !important; */
+  text-decoration: underline;
 }
 
 .dropdown {

@@ -20,7 +20,7 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 100px;
   /* width: calc(100% - 300px); */
-  width: 100%;
+  width: calc(100% - 80px);
   justify-items: center;
   align-items: center;
 }

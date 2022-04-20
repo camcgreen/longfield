@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import styles from '../styles/Header.module.css';
 import Hamburger from './svg/hamburger';
 
 const Header = () => {
+  const router = useRouter();
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
@@ -11,22 +13,61 @@ const Header = () => {
         </Link>
         <ul className={styles.links}>
           <Link href='/about'>
-            <li>About</li>
+            <li
+              style={{
+                color: router.pathname === '/about' ? '#FFA100' : '#1A2B3B',
+              }}
+            >
+              About
+            </li>
           </Link>
           <Link href='/suppliers'>
-            <li>Suppliers</li>
+            <li
+              style={{
+                color: router.pathname === '/suppliers' ? '#FFA100' : '#1A2B3B',
+              }}
+            >
+              Suppliers
+            </li>
           </Link>
           <Link href='/products'>
-            <li>Products</li>
+            <li
+              style={{
+                color: router.pathname === '/products' ? '#FFA100' : '#1A2B3B',
+              }}
+            >
+              Products
+            </li>
           </Link>
           <Link href='/the-team'>
-            <li>The Team</li>
+            <li
+              style={{
+                color: router.pathname === '/the-team' ? '#FFA100' : '#1A2B3B',
+              }}
+            >
+              The Team
+            </li>
           </Link>
           <Link href='/polymer-distribution'>
-            <li>Polymer Distribution</li>
+            <li
+              style={{
+                color:
+                  router.pathname === '/polymer-distribution'
+                    ? '#FFA100'
+                    : '#1A2B3B',
+              }}
+            >
+              Polymer Distribution
+            </li>
           </Link>
           <Link href='/contact'>
-            <li>Contact</li>
+            <li
+              style={{
+                color: router.pathname === '/contact' ? '#FFA100' : '#1A2B3B',
+              }}
+            >
+              Contact
+            </li>
           </Link>
           <li className={styles.dropdown}>
             <span>English</span>

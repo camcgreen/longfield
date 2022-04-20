@@ -47,7 +47,8 @@
 }
 
 .links li:hover {
-  color: var(--colButtonsHighlight);
+  /* color: var(--colButtonsHighlight); */
+  text-decoration: underline;
 }
 
 .links li img {

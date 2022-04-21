@@ -149,6 +149,19 @@
   transition: opacity 0.2s ease-in-out;
 }
 
+.overlay a:first-of-type {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  /* max-width: 90%; */
+}
+
+.overlay a:hover {
+  text-decoration: underline;
+}
+
 .linkedinLogo {
   /* width: calc(635px / 10) !important;
   height: calc(540px / 10) !important; */
@@ -160,6 +173,15 @@
 
 .suppProfile .overlay {
   width: calc(100% - 20px) !important;
+}
+
+.suppProfile .overlay a {
+  font-size: 1rem;
+}
+
+.suppProfile .overlay .linkedinLogo {
+  width: 40px !important;
+  height: 40px !important;
 }
 
 .suppProfile:last-of-type .overlay {
@@ -180,6 +202,16 @@
   } */
 }
 
+@media (max-width: 1200px) {
+  .overlay a {
+    font-size: 1.25rem;
+  }
+
+  .suppProfile .overlay a {
+    font-size: 0.8rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .team {
     padding: 80px 40px;
@@ -196,6 +228,19 @@
 
   .row3, .row2 {
     flex-direction: column;
+  }
+
+  .overlay a {
+    font-size: 1.5rem;
+  }
+
+  .suppProfile .overlay a {
+    font-size: 1.5rem;
+  }
+
+  .linkedinLogo {
+    width: 60px !important;
+    height: 60px !important;
   }
 
   .supplementary {
@@ -263,6 +308,19 @@
 
   .profile h2 {
     font-size: 1.25rem;
+  }
+
+  .overlay a {
+    font-size: 1.25rem;
+  }
+
+  .suppProfile .overlay a {
+    font-size: 1.25rem;
+  }
+
+  .linkedinLogo {
+    width: 50px !important;
+    height: 50px !important;
   }
 
   .suppProfile img {

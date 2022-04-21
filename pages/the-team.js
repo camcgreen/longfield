@@ -33,12 +33,29 @@ const Team = () => {
                     alt='Stephen Kilburn - Chief Operating Officer'
                   />
                   <div className={styles.overlay}>
-                    {/* <a href='mailto:neil@longchem.co.uk'>neil@longchem.co.uk</a> */}
-                    <img
+                    <a
+                      href='mailto:stephen@longchem.co.uk'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      stephen@longchem.co.uk
+                    </a>
+                    <a
+                      href='https://www.linkedin.com/in/stephen-kilburn-b8647126/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <img
+                        className={styles.linkedinLogo}
+                        src='/random.svg'
+                        alt=''
+                      />
+                    </a>
+                    {/* <img
                       className={styles.linkedinLogo}
                       src='/random.svg'
                       alt=''
-                    />
+                    /> */}
                   </div>
                 </div>
                 <h2>Stephen Kilburn</h2>
@@ -51,11 +68,24 @@ const Team = () => {
                     alt='Stuart Forsyth - Chief Executive Officer'
                   />
                   <div className={styles.overlay}>
-                    <img
-                      className={styles.linkedinLogo}
-                      src='/random.svg'
-                      alt=''
-                    />
+                    <a
+                      href='mailto:stuart@longchem.co.uk'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      stuart@longchem.co.uk
+                    </a>
+                    <a
+                      href='https://www.linkedin.com/in/stuart-forsyth-264b4025/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <img
+                        className={styles.linkedinLogo}
+                        src='/random.svg'
+                        alt=''
+                      />
+                    </a>
                   </div>
                 </div>
                 <h2>Stuart Forsyth</h2>
@@ -68,11 +98,24 @@ const Team = () => {
                     alt='Louise Georgiou - Chief Finance Officer'
                   />
                   <div className={styles.overlay}>
-                    <img
-                      className={styles.linkedinLogo}
-                      src='/random.svg'
-                      alt=''
-                    />
+                    <a
+                      href='mailto:louise@longchem.co.uk'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      louise@longchem.co.uk
+                    </a>
+                    <a
+                      href='https://www.linkedin.com/in/louise-georgiou-27ba12b2/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <img
+                        className={styles.linkedinLogo}
+                        src='/random.svg'
+                        alt=''
+                      />
+                    </a>
                   </div>
                 </div>
                 <h2>Louise Georgiou</h2>
@@ -84,11 +127,24 @@ const Team = () => {
                 <div className={styles.image}>
                   <img src='/mark.jpg' alt='Mark Pepper - Director' />
                   <div className={styles.overlay}>
-                    <img
-                      className={styles.linkedinLogo}
-                      src='/random.svg'
-                      alt=''
-                    />
+                    <a
+                      href='mailto:mark@longchem.co.uk'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      mark@longchem.co.uk
+                    </a>
+                    <a
+                      href='https://www.linkedin.com/in/mark-pepper-48484145/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <img
+                        className={styles.linkedinLogo}
+                        src='/random.svg'
+                        alt=''
+                      />
+                    </a>
                   </div>
                 </div>
                 <h2>Mark Pepper</h2>
@@ -98,11 +154,24 @@ const Team = () => {
                 <div className={styles.image}>
                   <img src='/shane.jpg' alt='Shane Richardson - Director' />
                   <div className={styles.overlay}>
-                    <img
-                      className={styles.linkedinLogo}
-                      src='/random.svg'
-                      alt=''
-                    />
+                    <a
+                      href='mailto:shane@longchem.co.uk'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      shane@longchem.co.uk
+                    </a>
+                    <a
+                      href='https://www.linkedin.com/in/shane-richardson-401b71/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <img
+                        className={styles.linkedinLogo}
+                        src='/random.svg'
+                        alt=''
+                      />
+                    </a>
                   </div>
                 </div>
                 <h2>Shane Richardson</h2>
@@ -114,11 +183,24 @@ const Team = () => {
                 <div className={styles.image}>
                   <img src='/mark.jpg' alt='Neil Croft - Head of Operations' />
                   <div className={styles.overlay}>
-                    <img
-                      className={styles.linkedinLogo}
-                      src='/random.svg'
-                      alt=''
-                    />
+                    <a
+                      href='mailto:neil@longchem.co.uk'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      neil@longchem.co.uk
+                    </a>
+                    <a
+                      href='https://www.linkedin.com/in/neil-croft-a8474528/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <img
+                        className={styles.linkedinLogo}
+                        src='/random.svg'
+                        alt=''
+                      />
+                    </a>
                   </div>
                 </div>
                 <h2>Neil Croft</h2>
@@ -131,6 +213,13 @@ const Team = () => {
                     alt='Arthur Grant - Consultant Head of Resources'
                   />
                   <div className={styles.overlay}>
+                    <a
+                      href='mailto:arthur@longchem.co.uk'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      arthur@longchem.co.uk
+                    </a>
                     <img
                       className={styles.linkedinLogo}
                       src='/random.svg'
@@ -147,6 +236,13 @@ const Team = () => {
                 <div className={styles.image}>
                   <img src='/tim.jpg' alt='Tim Hughes - Credit Controller' />
                   <div className={styles.overlay}>
+                    <a
+                      href='mailto:tim@longchem.co.uk'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      tim@longchem.co.uk
+                    </a>
                     <img
                       className={styles.linkedinLogo}
                       src='/random.svg'
@@ -164,11 +260,24 @@ const Team = () => {
                     alt='Harry Forsyth - Commercial Executive'
                   />
                   <div className={styles.overlay}>
-                    <img
-                      className={styles.linkedinLogo}
-                      src='/random.svg'
-                      alt=''
-                    />
+                    <a
+                      href='mailto:harry.forsyth@longchem.co.uk'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      {'harry.forsyth\n@longchem.co.uk'}
+                    </a>
+                    <a
+                      href='https://www.linkedin.com/in/harry-forsyth-714b03196/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <img
+                        className={styles.linkedinLogo}
+                        src='/random.svg'
+                        alt=''
+                      />
+                    </a>
                   </div>
                 </div>
                 <h2>Harry Forsyth</h2>
@@ -181,6 +290,13 @@ const Team = () => {
                     alt='Zoe Gallimore - Accounts Assistant'
                   />
                   <div className={styles.overlay}>
+                    <a
+                      href='mailto:zoe@longchem.co.uk'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      zoe@longchem.co.uk
+                    </a>
                     <img
                       className={styles.linkedinLogo}
                       src='/random.svg'
@@ -198,11 +314,24 @@ const Team = () => {
                     alt='Lovisa Nygren - Logistics Controller'
                   />
                   <div className={styles.overlay}>
-                    <img
-                      className={styles.linkedinLogo}
-                      src='/random.svg'
-                      alt=''
-                    />
+                    <a
+                      href='mailto:lovisa@longchem.co.uk'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      lovisa@longchem.co.uk
+                    </a>
+                    <a
+                      href='https://www.linkedin.com/in/lovisa-nygren-683824165/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <img
+                        className={styles.linkedinLogo}
+                        src='/random.svg'
+                        alt=''
+                      />
+                    </a>
                   </div>
                 </div>
                 <h2>Lovisa Nygren</h2>
@@ -215,6 +344,13 @@ const Team = () => {
                     alt='Polaris Zhang - Representative in China'
                   />
                   <div className={styles.overlay}>
+                    <a
+                      href='mailto:polaris@longchem.co.uk'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      polaris@longchem.co.uk
+                    </a>
                     <img
                       className={styles.linkedinLogo}
                       src='/random.svg'

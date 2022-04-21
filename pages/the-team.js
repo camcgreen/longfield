@@ -33,6 +33,7 @@ const Team = () => {
                     alt='Stephen Kilburn - Chief Operating Officer'
                   />
                   <div className={styles.overlay}>
+                    {/* <a href='mailto:neil@longchem.co.uk'>neil@longchem.co.uk</a> */}
                     <img
                       className={styles.linkedinLogo}
                       src='/random.svg'

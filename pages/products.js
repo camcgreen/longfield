@@ -26,14 +26,16 @@ const Products = () => {
             <img src='/polymer.svg' alt='' />
           </div>
         </div>
-        <div className='wrapper'>
-          <div className={styles.details}>
+        <div className={styles.details}>
+          <div className='wrapper'>
             <div className={styles.block}>
               <h1>Polypropylene (PP)</h1>
               <p>PPH (homopolymer)</p>
               <p>PPC (block copolymer)</p>
               <p>PPR (random copolymer)</p>
             </div>
+          </div>
+          <div className='wrapper'>
             <div className={styles.block}>
               <h1>Polyethylene (PE)</h1>
               <p>LDPE (low density)</p>
@@ -41,11 +43,15 @@ const Products = () => {
               <p>MDPE (medium density)</p>
               <p>HDPE (high density)</p>
             </div>
+          </div>
+          <div className='wrapper'>
             <div className={styles.block}>
               <h1>Polystyrene (PS)</h1>
               <p>GPPS (general purpose/crystal</p>
               <p>HIPS (high impact)</p>
             </div>
+          </div>
+          <div className='wrapper'>
             <div className={styles.block}>
               <h1>ABS (acrylonitrile-butadiene-styrene)</h1>
               <h1>SAN (styrene-acrylonitrile)</h1>

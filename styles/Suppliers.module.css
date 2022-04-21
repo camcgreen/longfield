@@ -30,18 +30,34 @@
   margin-bottom: 80px;
 }
 
-.grid div {
+/* .grid a {
   width: 100%;
   aspect-ratio: 1.5 / 1;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
-  outline: 1px solid lightgrey
+  outline: 1px solid lightgrey;
+} */
+
+/* .grid div { */
+  .grid div {
+  width: 100%;
+  aspect-ratio: 1.5 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  outline: 1px solid lightgrey;
+  /* cursor: pointer; */
 }
 
 .grid div img {
   width: 50%;
+}
+
+.long, .inno {
+  max-width: 100px;
 }
 
 .suppliers h2 {

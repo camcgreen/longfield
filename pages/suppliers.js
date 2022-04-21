@@ -18,7 +18,13 @@ const Suppliers = () => {
           <h1>Suppliers</h1>
           <div className={styles.grid}>
             <div>
+              {/* <a
+                href='https://www.ineos-styrolution.com/index.html'
+                target='_blank'
+                rel='noopener noreferrer'
+              > */}
               <img src='/c-ineos.png' alt='Ineos Styrolution' />
+              {/* </a> */}
             </div>
             <div>
               <img src='/c-formosa-plastics.png' alt='Formosa Plastics' />
@@ -33,7 +39,11 @@ const Suppliers = () => {
               <img src='/c-sibur.png' alt='Sibur' />
             </div>
             <div>
-              <img src='/c-long.png' alt='Long Da Masterbatch' />
+              <img
+                src='/c-long.png'
+                className={styles.long}
+                alt='Long Da Masterbatch'
+              />
             </div>
             <div>
               <img src='/c-petkim.png' alt='Petkim' />
@@ -42,7 +52,7 @@ const Suppliers = () => {
               <img src='/c-kumho.png' alt='Kumho Petrochemical' />
             </div>
             <div>
-              <img src='/c-inno.png' alt='Inno-Comp' />
+              <img src='/c-inno.png' className={styles.inno} alt='Inno-Comp' />
             </div>
             <div>
               <img src='/c-formosa-corp.png' alt='Formosa Plastics Corp' />

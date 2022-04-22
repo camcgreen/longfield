@@ -8,9 +8,9 @@ const Suppliers = () => {
   return (
     <>
       <Head>
-        <title>Longfield Polymers | Suppliers</title>
+        <title>Suppliers | Longfield Polymers</title>
         <meta name='description' content='Longfield Polymers' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favicon.png' />
       </Head>
       <Header />
       <main className={styles.suppliers}>

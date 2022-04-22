@@ -5,7 +5,16 @@ const Partnered = () => {
     <section className={styles.partnered}>
       <div className='wrapper'>
         <div className={styles.content}>
-          <img src='/sterling-international.png' alt='Sterling International' />
+          <a
+            href='https://sterlinginc.net/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img
+              src='/sterling-international.png'
+              alt='Sterling International'
+            />
+          </a>
           <div>
             <h1>Partnered with</h1>
             <h1>Sterling International, USA.</h1>

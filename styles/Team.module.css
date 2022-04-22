@@ -234,6 +234,18 @@
     font-size: 1.5rem;
   }
 
+  .row3 .profile:first-of-type {
+    order: 2;
+  }
+
+  .row3 .profile:nth-of-type(2) {
+    order: 1;
+  }
+
+  .row3 .profile:last-of-type {
+    order: 3;
+  }
+
   .suppProfile .overlay a {
     font-size: 1.5rem;
   }

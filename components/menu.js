@@ -13,7 +13,13 @@ const Menu = ({ active = false }) => {
     >
       <ul className={styles.links}>
         <li>
-          <img src='/nav-sterling.svg' alt='' />
+          <a
+            href='https://sterlinginc.net/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img src='/nav-sterling.svg' alt='' />
+          </a>
         </li>
         <Link href='/about'>
           <li

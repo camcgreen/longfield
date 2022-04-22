@@ -188,16 +188,35 @@ const Footer = () => {
       <div className='wrapper'>
         <div className={styles.legal}>
           <div className={`${styles.column} ${styles.legalLinks}`}>
-            <h1>LEGAL INFORMATION</h1>
+            <h1>
+              <a href='path_to_file' download='proposed_file_name'>
+                PRIVACY POLICY
+              </a>
+            </h1>
           </div>
           <div className={`${styles.column} ${styles.legalLinks}`}>
-            <h1>TERMS & CONDITIONS</h1>
+            <h1>
+              <a href='/Terms of Sale.pdf' download='Terms of Sale'>
+                TERMS & CONDITIONS
+              </a>
+            </h1>
           </div>
           <div className={`${styles.column} ${styles.legalLinks}`}>
-            <h1>ANTI SLAVERY STATEMENT</h1>
+            <h1>
+              <a
+                href='/Anti-Slavery Statement.pdf'
+                download='Anti-Slavery Statement'
+              >
+                ANTI SLAVERY STATEMENT
+              </a>
+            </h1>
           </div>
           <div className={`${styles.column} ${styles.legalLinks}`}>
-            <h1>DOWNLOAD CERTIFICATES</h1>
+            <h1>
+              <a href='/Certificates.pdf' download='Certificates'>
+                DOWNLOAD CERTIFICATES
+              </a>
+            </h1>
           </div>
         </div>
         <p className={styles.disclaimer}>

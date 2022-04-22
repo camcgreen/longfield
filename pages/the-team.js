@@ -8,9 +8,9 @@ const Team = () => {
   return (
     <>
       <Head>
-        <title>Longfield Polymers | The Team</title>
+        <title>The Team | Longfield Polymers</title>
         <meta name='description' content='Longfield Polymers' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favicon.png' />
       </Head>
       <Header />
       <main className={styles.team}>

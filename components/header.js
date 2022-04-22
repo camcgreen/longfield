@@ -77,7 +77,13 @@ const Header = () => {
         <div>
           {/* <img className={styles.hamburger} src='/hamburger.svg' alt='' /> */}
           <Hamburger />
-          <img className={styles.partner} src='/nav-sterling.svg' alt='' />
+          <a
+            href='https://sterlinginc.net/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img className={styles.partner} src='/nav-sterling.svg' alt='' />
+          </a>
         </div>
       </nav>
     </header>

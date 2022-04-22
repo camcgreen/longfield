@@ -9,9 +9,9 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>Longfield Polymers | About</title>
+        <title>About | Longfield Polymers</title>
         <meta name='description' content='Longfield Polymers' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favicon.png' />
       </Head>
       <Header />
       <main className={styles.about}>
@@ -25,13 +25,11 @@ const About = () => {
             <img className={styles.heroImage} src='/dock.svg' alt='' />
             <div className={styles.fullWidth}>
               <p>
-                Trusted by the world’s leading polymer producers since 1968, our
-                focus and commitment to each individual customer and supplier,
-                along with our combined 50 years of knowledge and continual and
-                effective improvement of environmental performance has not only
-                earned us multiple accreditations, but ensure that we continue
-                to supply world class polymers at low prices globally while
-                upkeeping our core values of integrity, focus and trust.
+                Trusted by the world’s leading polymer producers since 1968, we
+                are focused and committed to each individual customer and
+                supplier. Our combined know-how and continual improvement has
+                not only earned us multiple accreditations, but ensures that we
+                supply world class polymers at low prices globally.
               </p>
             </div>
             <div>

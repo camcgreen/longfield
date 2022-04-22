@@ -8,10 +8,10 @@ const Services = () => {
         <div className={styles.column}>
           <img src='/monitor.svg' alt='' />
           <p>
-            Our stock management system give live information about the
+            Our stock management system gives live information about the
             availability and timescales of products.
           </p>
-          <Button text='LEARN MORE' />
+          <Button text='LEARN MORE' link='/products' />
         </div>
         <div className={styles.column}>
           <img src='/dock.svg' alt='' />
@@ -19,7 +19,7 @@ const Services = () => {
             Typically, we distribute around 25,000 tonnes of polymer per month
             at the most competitive prices.
           </p>
-          <Button text='LEARN MORE' />
+          <Button text='LEARN MORE' link='/polymer-distribution' />
         </div>
       </div>
     </section>

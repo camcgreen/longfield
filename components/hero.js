@@ -17,7 +17,7 @@ const Hero = () => {
           Since 1968, the world's leading polymer producers have trusted
           Longfield to distribute their products globally.
         </p>
-        <Button text='LEARN MORE' />
+        <Button text='LEARN MORE' link='/about' />
       </div>
     </section>
   );

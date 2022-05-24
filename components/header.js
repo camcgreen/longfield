@@ -1,10 +1,22 @@
+// import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import styles from '../styles/Header.module.css';
 import Hamburger from './svg/hamburger';
 
-const Header = () => {
+const Header = ({ parentCallback }) => {
   const router = useRouter();
+  // const [lang, setLang] = useState('english');
+  const handleDropdown = (e) => {
+    e.preventDefault();
+    // setLang(e.target.value);
+    parentCallback(e.target.value);
+    // console.log(e.target.value);
+    // console.log(lang);
+  };
+  // useEffect(() => {
+  //   console.log(lang);
+  // }, [lang]);
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
@@ -73,6 +85,12 @@ const Header = () => {
             <span>English</span>
             <img src='/down.svg' alt='' />
           </li>
+          {/* <li className={styles.drop}>
+            <select name='lang' id='lang' onChange={handleDropdown}>
+              <option value='english'>English</option>
+              <option value='spanish'>Spanish</option>
+            </select>
+          </li> */}
         </ul>
         <div>
           {/* <img className={styles.hamburger} src='/hamburger.svg' alt='' /> */}

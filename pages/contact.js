@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import styles from '../styles/Contact.module.css';
 import Header from '../components/header';
@@ -6,6 +7,13 @@ import Button from '../components/button';
 import Menu from '../components/menu';
 
 const Contact = () => {
+  const [lang, setLang] = useState('english');
+  const handleCallback = (childData) => {
+    setLang(childData);
+  };
+  useEffect(() => {
+    console.log(lang);
+  }, [lang]);
   return (
     <>
       <Head>
@@ -13,12 +21,14 @@ const Contact = () => {
         <meta name='description' content='Longfield Polymers' />
         <link rel='icon' href='/favicon.png' />
       </Head>
-      <Header />
+      <Header parentCallback={handleCallback} />
       <main className={styles.contact}>
         {/* <div className='wrapper'> */}
         <h1>Get in touch</h1>
         <p>
-          Don’t hesitate to ask us something. Email us directly at{' '}
+          {lang === 'english'
+            ? 'Don’t hesitate to ask us something. Email us directly at'
+            : 'No dudes en preguntarnos algo. Envíenos un correo electrónico directamente a'}{' '}
           <a
             href='mailto: info@longchem.co.uk'
             target='_blank'
@@ -29,8 +39,9 @@ const Contact = () => {
           .{' '}
         </p>
         <p>
-          We are always open to answering questions and forming new
-          partnerships.{' '}
+          {lang === 'english'
+            ? 'We are always open to answering questions and forming new partnerships.'
+            : 'Siempre estamos abiertos a responder preguntas y formar nuevas asociaciones.'}{' '}
         </p>
         <form action='' className={styles.form}>
           <label htmlFor='name'>Name</label>

@@ -150,12 +150,12 @@ const Footer = () => {
               className={styles.china}
               style={{ display: showChina ? 'block' : 'none' }}
             >
-              <li>ADDRESS 1</li>
-              <li>ADDRESS 2</li>
-              <li>ADDRESS 3</li>
-              <li>ADDRESS 4</li>
-              <li>ADDRESS 5</li>
-              <li>China</li>
+              <li>ZIBO</li>
+              <li>SHANDONG PROVINCE</li>
+              <li>CHINA</li>
+              <li style={{ height: 16.5 }}></li>
+              <li style={{ height: 16.5 }}></li>
+              <li style={{ height: 16.5 }}></li>
               <li className={styles.email}>
                 <a
                   href='mailto:info@longchem.co.uk'

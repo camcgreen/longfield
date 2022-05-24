@@ -73,6 +73,15 @@
   transform: translateY(25%);
 }
 
+.drop select {
+  /* border: none; */
+  /* padding: 10px 20px; */
+  font-size: 1.25rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--colBody);
+}
+
 .nav div {
   display: flex;
   align-items: center;
@@ -105,9 +114,10 @@
 } */
 
 @media (max-width: 1535px) {
-  .links {
+  .links, .drop select {
     font-size: 1rem;
   }
+
 }
 
 @media (max-width: 1366px) {

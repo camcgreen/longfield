@@ -119,7 +119,7 @@ const Team = () => {
                   </div>
                 </div>
                 <h2>Louise Georgiou</h2>
-                <h2>Chief Finance Officer</h2>
+                <h2>Chief Financial Officer</h2>
               </div>
             </div>
             <div className={styles.row2}>
@@ -148,7 +148,7 @@ const Team = () => {
                   </div>
                 </div>
                 <h2>Mark Pepper</h2>
-                <h2>Director</h2>
+                <h2>Chairman</h2>
               </div>
               <div className={styles.profile}>
                 <div className={styles.image}>
@@ -220,11 +220,17 @@ const Team = () => {
                     >
                       arthur@longchem.co.uk
                     </a>
-                    <img
-                      className={styles.linkedinLogo}
-                      src='/random.svg'
-                      alt=''
-                    />
+                    <a
+                      href='https://www.linkedin.com/in/arthur-grant-8a2b9b19/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <img
+                        className={styles.linkedinLogo}
+                        src='/random.svg'
+                        alt=''
+                      />
+                    </a>
                   </div>
                 </div>
                 <h2>Arthur Grant</h2>
@@ -240,14 +246,15 @@ const Team = () => {
                       href='mailto:tim@longchem.co.uk'
                       target='_blank'
                       rel='noopener noreferrer'
+                      style={{ marginBottom: 0 }}
                     >
                       tim@longchem.co.uk
                     </a>
-                    <img
+                    {/* <img
                       className={styles.linkedinLogo}
                       src='/random.svg'
                       alt=''
-                    />
+                    /> */}
                   </div>
                 </div>
                 <h2>Tim Hughes</h2>
@@ -294,14 +301,15 @@ const Team = () => {
                       href='mailto:zoe@longchem.co.uk'
                       target='_blank'
                       rel='noopener noreferrer'
+                      style={{ marginBottom: 0 }}
                     >
                       zoe@longchem.co.uk
                     </a>
-                    <img
+                    {/* <img
                       className={styles.linkedinLogo}
                       src='/random.svg'
                       alt=''
-                    />
+                    /> */}
                   </div>
                 </div>
                 <h2>Zoe Gallimore</h2>
@@ -343,7 +351,7 @@ const Team = () => {
                     src='/polaris.jpg'
                     alt='Polaris Zhang - Representative in China'
                   />
-                  <div className={styles.overlay}>
+                  {/* <div className={styles.overlay}>
                     <a
                       href='mailto:polaris@longchem.co.uk'
                       target='_blank'
@@ -356,7 +364,7 @@ const Team = () => {
                       src='/random.svg'
                       alt=''
                     />
-                  </div>
+                  </div> */}
                 </div>
                 <h2>Polaris Zhang</h2>
                 <h2>Representative in China</h2>

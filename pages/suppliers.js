@@ -17,27 +17,55 @@ const Suppliers = () => {
         <div className='wrapper'>
           <h1>Suppliers</h1>
           <div className={styles.grid}>
-            <div>
-              {/* <a
-                href='https://www.ineos-styrolution.com/index.html'
-                target='_blank'
-                rel='noopener noreferrer'
-              > */}
-              <img src='/c-ineos.png' alt='Ineos Styrolution' />
-              {/* </a> */}
-            </div>
-            <div>
+            <a
+              href='https://epsan.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src='/c-epsan.png' alt='Epsan' />
+            </a>
+            <a
+              href='https://www.fpcusa.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <img src='/c-formosa-plastics.png' alt='Formosa Plastics' />
-            </div>
-            <div>
-              <img src='/c-lg.png' alt='LG Chem' />
-            </div>
-            <div>
-              <img src='/c-unipetrol.png' alt='Unipetrol' />
-            </div>
-            <div>
-              <img src='/c-sibur.png' alt='Sibur' />
-            </div>
+            </a>
+            <a
+              href='https://www.fpcusa.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src='/c-formosa-corp.png' alt='Formosa Plastics Corp' />
+            </a>
+            <a
+              href='https://www.ineos-styrolution.com/index.html'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src='/c-ineos.jpg' alt='Ineos Styrolution' />
+            </a>
+            <a
+              href='https://inno-comp.hu/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src='/c-inno.png' className={styles.inno} alt='Inno-Comp' />
+            </a>
+            <a
+              href='https://www.kkpc.com/eng/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src='/c-kumho.svg' alt='Kumho Petrochemical' />
+            </a>
+            <a
+              href='https://www.lgchem.com/main/index'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src='/c-lg.svg' alt='LG Chem' />
+            </a>
             <div>
               <img
                 src='/c-long.png'
@@ -45,27 +73,48 @@ const Suppliers = () => {
                 alt='Long Da Masterbatch'
               />
             </div>
-            <div>
-              <img src='/c-petkim.png' alt='Petkim' />
-            </div>
-            <div>
-              <img src='/c-kumho.png' alt='Kumho Petrochemical' />
-            </div>
-            <div>
-              <img src='/c-inno.png' className={styles.inno} alt='Inno-Comp' />
-            </div>
-            <div>
-              <img src='/c-formosa-corp.png' alt='Formosa Plastics Corp' />
-            </div>
-            <div>
-              <img src='/c-sidpec.png' alt='Sidpec' />
-            </div>
-            <div>
-              <img src='/c-epsan.png' alt='Epsan' />
-            </div>
-            <div>
+            <a
+              href='https://www.lottechem.com/en/index.do'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <img src='/c-lotte.png' alt='Lotte Chemical' />
-            </div>
+            </a>
+            <a
+              href='https://www.hip-petrohemija.com/home.8.html'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src='/c-petrohemija.jpeg' alt='Petrohemija' />
+            </a>
+            <a
+              href='https://www.petkim.com.tr/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src='/c-petkim.svg' alt='Petkim' />
+            </a>
+            <a
+              href='https://www.sibur.ru/en/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src='/c-sibur.svg' alt='Sibur' />
+            </a>
+            <a
+              href='https://www.sidpec.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src='/c-sidpec.png' alt='Sidpec' />
+            </a>
+            <a
+              href='https://www.orlenunipetrol.cz/en/Pages/default.aspx'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src='/c-unipetrol.png' alt='Unipetrol' />
+            </a>
           </div>
           <div className={styles.overlay} />
           <h2>We partner with some of the world's greatest polymer brands.</h2>

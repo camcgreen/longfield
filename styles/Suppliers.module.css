@@ -41,7 +41,7 @@
 } */
 
 /* .grid div { */
-  .grid div {
+  .grid a, .grid div {
   width: 100%;
   aspect-ratio: 1.5 / 1;
   display: flex;
@@ -52,12 +52,17 @@
   /* cursor: pointer; */
 }
 
-.grid div img {
+/* .grid div img { */
+  .grid a img, .grid div img {
   width: 50%;
 }
 
 .long, .inno {
   max-width: 100px;
+}
+
+.formosa {
+  height: 200px;
 }
 
 .suppliers h2 {

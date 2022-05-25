@@ -30,12 +30,12 @@ const PolymerDistribution = () => {
           />
           <h1>
             {lang === 'english'
-              ? 'As the UK’s leading independent polymer distributor, with supply partners all over the world, we are able to provide a reliable and efficient service for all your requirements'
+              ? 'As a globally trusted polymer distributor, with supply partners all over the world, we are able to provide a reliable and efficient service for all your requirements.'
               : 'Como el principal distribuidor independiente de polímeros del Reino Unido, con socios de suministro en todo el mundo, podemos brindar un servicio confiable y eficiente para todos sus requisitos.'}
           </h1>
           <p>
             {lang === 'english'
-              ? 'As a globally trusted polymer distributor, with supply partners all over the world, we are able to provide a fast and efficient service for all your requirements. From pallet orders to trailer deliveries, we give the same level of focus, dedication and commitment to all customer orders. Whether we’re distributing locally or globally, we strive to maintain strong relationships with all of our customers and suppliers, guaranteeing reliable and high quality production and distribution at a low cost for all.'
+              ? 'Underpinned with considerable investment in technology, our efficient Europe-wide logistics network and strategically positioned UK distribution hubs ensure we deliver the right product in time at the right price.'
               : 'Como distribuidor de polímeros de confianza a nivel mundial, con socios de suministro en todo el mundo, podemos brindar un servicio rápido y eficiente para todos sus requisitos. Desde pedidos de palés hasta entregas en remolque, damos el mismo nivel de enfoque, dedicación y compromiso a todos los pedidos de los clientes. Ya sea que estemos distribuyendo a nivel local o global, nos esforzamos por mantener relaciones sólidas con todos nuestros clientes y proveedores, garantizando una producción y distribución confiable y de alta calidad a un bajo costo para todos.'}
           </p>
         </div>

@@ -21,9 +21,9 @@ const Partnered = () => {
           </div>
         </div>
         <p>
-          Longfield Polymers are partnered with Sterling International, a
-          Louisiana based, US$300 million, polymer distribution company.
-          Sterling are the biggest customer of Formosa.
+          Longfield Polymers are proud partners with Louisiana based Sterling
+          International, contributing to the Polymer Distributor’s £250m annual
+          turnover.
         </p>
       </div>
     </section>

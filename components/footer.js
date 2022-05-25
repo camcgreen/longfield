@@ -125,7 +125,13 @@ const Footer = () => {
                 // style={{ marginBottom: showUsa ? 40 : 0 }}
                 style={{ marginBottom: showUsa ? 40 : 0 }}
               >
-                E. TBC@longchem.co.uk
+                <a
+                  href='mailto:americas@longchem.co.uk'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  E. americas@longchem.co.uk
+                </a>
               </li>
             </div>
           </ul>
@@ -158,12 +164,12 @@ const Footer = () => {
               <li style={{ height: 16.5 }}></li>
               <li className={styles.email}>
                 <a
-                  href='mailto:info@longchem.co.uk'
+                  href='mailto:china@longchem.co.uk'
                   target='_blank'
                   rel='noopener noreferrer'
                   style={{ marginBottom: showChina ? 40 : 0 }}
                 >
-                  E. info@longchem.co.uk
+                  E. china@longchem.co.uk
                 </a>
               </li>
             </div>

@@ -1,6 +1,6 @@
 import styles from '../styles/Endorsements.module.css';
 
-const Endorsements = () => {
+const Endorsements = ({ lang }) => {
   return (
     <section className={styles.endorsements}>
       <div className='wrapper'>
@@ -28,7 +28,11 @@ const Endorsements = () => {
           <img src='/c-sidpec.png' alt='Sidpec' />
           <img src='/c-unipetrol.png' alt='Unipetrol' />
         </div>
-        <h1>These leading polymer producers choose Longfield</h1>
+        <h1>
+          {lang === 'english'
+            ? 'These leading polymer producers choose Longfield'
+            : 'Empresas lideres en polímeros que escogen Longfield'}
+        </h1>
       </div>
     </section>
   );

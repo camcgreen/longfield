@@ -44,6 +44,16 @@
   white-space: nowrap;
 }
 
+.smallMargin {
+  font-size: 1rem;
+  margin-right: 20px !important;
+}
+
+.smallSelect {
+  font-size: 1rem !important;
+  transform: translateY(-12.5%);
+}
+
 .active {
   color: var(--colButtonsHighlight);
 }
@@ -74,12 +84,13 @@
 }
 
 .drop select {
-  /* border: none; */
-  /* padding: 10px 20px; */
+  border: none;
   font-size: 1.25rem;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 300 !important;
   color: var(--colBody);
+  font-family: 'Outfit', Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .nav div {
@@ -118,6 +129,14 @@
     font-size: 1rem;
   }
 
+  .smallMargin {
+    font-size: 0.85rem;
+    margin-right: 15px !important;
+  }
+
+  .smallSelect {
+    font-size: 0.85rem !important;
+  }
 }
 
 @media (max-width: 1366px) {

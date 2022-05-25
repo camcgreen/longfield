@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Header from '../components/header';
 import Hero from '../components/hero';
@@ -9,6 +10,14 @@ import Footer from '../components/footer';
 import Menu from '../components/menu';
 
 const Home = () => {
+  const [lang, setLang] = useState('english');
+  useEffect(() => {
+    const lang = localStorage.getItem('lang');
+    lang && setLang(lang);
+  }, []);
+  const handleCallback = (childData) => {
+    setLang(childData);
+  };
   return (
     <>
       <Head>
@@ -16,18 +25,18 @@ const Home = () => {
         <meta name='description' content='Longfield Polymers' />
         <link rel='icon' href='/favicon.png' />
       </Head>
-      <Header />
+      <Header parentCallback={handleCallback} />
       <main>
-        <Hero />
+        <Hero lang={lang} />
         {/* <div className='wrapper'> */}
-        <Endorsements />
-        <Services />
-        <Stats />
-        <Partnered />
+        <Endorsements lang={lang} />
+        <Services lang={lang} />
+        <Stats lang={lang} />
+        <Partnered lang={lang} />
         {/* </div> */}
       </main>
-      <Footer />
-      <Menu />
+      <Footer lang={lang} />
+      <Menu lang={lang} />
     </>
   );
 };

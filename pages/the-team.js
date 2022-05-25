@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import styles from '../styles/Team.module.css';
 import Header from '../components/header';
@@ -5,6 +6,14 @@ import Footer from '../components/footer';
 import Menu from '../components/menu';
 
 const Team = () => {
+  const [lang, setLang] = useState('english');
+  useEffect(() => {
+    const lang = localStorage.getItem('lang');
+    lang && setLang(lang);
+  }, []);
+  const handleCallback = (childData) => {
+    setLang(childData);
+  };
   return (
     <>
       <Head>
@@ -12,17 +21,19 @@ const Team = () => {
         <meta name='description' content='Longfield Polymers' />
         <link rel='icon' href='/favicon.png' />
       </Head>
-      <Header />
+      <Header parentCallback={handleCallback} />
       <main className={styles.team}>
         <div className='wrapper'>
-          <h1>Our team</h1>
-          <p>
-            We strive to ensure that all of our team members uphold our core
-            values, putting these at the heart of every decision they make.
+          <h1>{lang === 'english' ? 'Our team' : 'Nuestro equipo'}</h1>
+          <p style={{ maxWidth: lang === 'english' ? 700 : 900 }}>
+            {lang === 'english'
+              ? 'We strive to ensure that all of our team members uphold our core values, putting these at the heart of every decision they make.'
+              : 'Nos esforzamos por garantizar que todos los miembros de nuestro equipo defiendan nuestros valores, poniendo éstos en el centro de cada decisión que toman.'}
           </p>
-          <p>
-            We want everyone at Longfield to feel proud of the work they do, the
-            company they work for and the difference that they make.
+          <p style={{ maxWidth: lang === 'english' ? 700 : 900 }}>
+            {lang === 'english'
+              ? 'We want everyone at Longfield to feel proud of the work they do, the company they work for and the difference that they make.'
+              : 'Queremos que todos los miembros de Longfield se sientan orgullosos del trabajo que realizan, de la empresa para la que trabajan y de la diferencia que marcan.'}
           </p>
           <div className={styles.photos}>
             <div className={styles.row3}>
@@ -373,8 +384,8 @@ const Team = () => {
           </div>
         </div>
       </main>
-      <Footer />
-      <Menu />
+      <Footer lang={lang} />
+      <Menu lang={lang} />
     </>
   );
 };

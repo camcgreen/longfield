@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import styles from '../styles/Suppliers.module.css';
 import Header from '../components/header';
@@ -5,6 +6,14 @@ import Footer from '../components/footer';
 import Menu from '../components/menu';
 
 const Suppliers = () => {
+  const [lang, setLang] = useState('english');
+  useEffect(() => {
+    const lang = localStorage.getItem('lang');
+    lang && setLang(lang);
+  }, []);
+  const handleCallback = (childData) => {
+    setLang(childData);
+  };
   return (
     <>
       <Head>
@@ -12,10 +21,10 @@ const Suppliers = () => {
         <meta name='description' content='Longfield Polymers' />
         <link rel='icon' href='/favicon.png' />
       </Head>
-      <Header />
+      <Header parentCallback={handleCallback} />
       <main className={styles.suppliers}>
         <div className='wrapper'>
-          <h1>Suppliers</h1>
+          <h1>{lang === 'english' ? 'Suppliers' : 'Proveedores'}</h1>
           <div className={styles.grid}>
             <a
               href='https://epsan.com/'
@@ -117,11 +126,15 @@ const Suppliers = () => {
             </a>
           </div>
           <div className={styles.overlay} />
-          <h2>We partner with some of the world's greatest polymer brands.</h2>
+          <h2>
+            {lang === 'english'
+              ? "We partner with some of the world's greatest polymer brands."
+              : 'En asociación con varias de las mejores marcas de polímeros a nivel mundial.'}
+          </h2>
         </div>
       </main>
-      <Footer />
-      <Menu />
+      <Footer lang={lang} />
+      <Menu lang={lang} />
     </>
   );
 };

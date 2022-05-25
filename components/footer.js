@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from '../styles/Footer.module.css';
 
-const Footer = () => {
+const Footer = ({ lang }) => {
   const [showEurope, setShowEurope] = useState(true);
   const [showUsa, setShowUsa] = useState(true);
   const [showChina, setShowChina] = useState(true);
@@ -29,27 +29,31 @@ const Footer = () => {
       <div className='wrapper'>
         <div className={styles.content}>
           <ul className={`${styles.column} ${styles.links}`}>
-            <h1>NAVIGATION</h1>
+            <h1>{lang === 'english' ? 'NAVIGATION' : 'PAGINAS'}</h1>
             <Link href='/'>
-              <li>HOME</li>
+              <li>{lang === 'english' ? 'HOME' : 'INICIO'}</li>
             </Link>
             <Link href='/about'>
-              <li>ABOUT</li>
+              <li>{lang === 'english' ? 'ABOUT' : 'SOBRE NOSOTROS'}</li>
             </Link>
             <Link href='/the-team'>
-              <li>THE TEAM</li>
+              <li>{lang === 'english' ? 'THE TEAM' : 'NUESTRO EQUIPO'}</li>
             </Link>
             <Link href='/suppliers'>
-              <li>SUPPLIERS</li>
+              <li>{lang === 'english' ? 'SUPPLIERS' : 'PROVEEDORES'}</li>
             </Link>
             <Link href='/products'>
-              <li>PRODUCTS</li>
+              <li>{lang === 'english' ? 'PRODUCTS' : 'PRODUCTOS'}</li>
             </Link>
             <Link href='/polymer-distribution'>
-              <li>POLYMER DISTRIBUTION</li>
+              <li>
+                {lang === 'english'
+                  ? 'POLYMER DISTRIBUTION'
+                  : 'DISTRIBUICIÓN DE POLÍMEROS'}
+              </li>
             </Link>
             <Link href='/contact'>
-              <li>CONTACT</li>
+              <li>{lang === 'english' ? 'CONTACT' : 'CONTACTO'}</li>
             </Link>
           </ul>
           <ul
@@ -176,10 +180,17 @@ const Footer = () => {
             </div>
           </ul>
           <ul className={`${styles.column} ${styles.form}`}>
-            <h1>STAY UP TO DATE</h1>
-            <input type='text' placeholder='your email' />
-            <button>Join</button>
-            <li>Follow us:</li>
+            <h1>
+              {lang === 'english' ? 'STAY UP TO DATE' : 'MANTENTE INFORMADO'}
+            </h1>
+            <input
+              type='text'
+              placeholder={
+                lang === 'english' ? 'your email' : 'tu dirección de correo'
+              }
+            />
+            <button>{lang === 'english' ? 'Join' : 'Únete'}</button>
+            <li>{lang === 'english' ? 'Follow us:' : 'Siguenos:'}</li>
             {/* <img className={styles.linkedin} src='/linkedin.svg' alt='' /> */}
             <img
               className={styles.linkedinLogo}
@@ -197,41 +208,55 @@ const Footer = () => {
           <div className={`${styles.column} ${styles.legalLinks}`}>
             <h1>
               <a href='path_to_file' download='proposed_file_name'>
-                PRIVACY POLICY
+                {lang === 'english'
+                  ? 'PRIVACY POLICY'
+                  : 'Política de privacidad'.toUpperCase()}
               </a>
             </h1>
           </div>
           <div className={`${styles.column} ${styles.legalLinks}`}>
             <h1>
               <a href='/Terms of Sale.pdf' download='Terms of Sale'>
-                TERMS & CONDITIONS
+                {lang === 'english'
+                  ? 'TERMS & CONDITIONS'
+                  : 'Términos y condiciones'.toUpperCase()}
               </a>
             </h1>
           </div>
-          <div className={`${styles.column} ${styles.legalLinks}`}>
+          <div
+            className={`${styles.column} ${styles.legalLinks}`}
+            style={{ maxWidth: lang === 'spanish' && 350 }}
+          >
             <h1>
               <a
                 href='/Anti-Slavery Statement.pdf'
                 download='Anti-Slavery Statement'
               >
-                ANTI SLAVERY STATEMENT
+                {lang === 'english' ? (
+                  'ANTI SLAVERY STATEMENT'
+                ) : (
+                  <>
+                    <p>DECLARACIÓN CONTRA</p>
+                    <p>LA ESCLAVITUD</p>
+                  </>
+                )}
               </a>
             </h1>
           </div>
           <div className={`${styles.column} ${styles.legalLinks}`}>
             <h1>
               <a href='/Certificates.pdf' download='Certificates'>
-                DOWNLOAD CERTIFICATES
+                {lang === 'english'
+                  ? 'DOWNLOAD CERTIFICATES'
+                  : 'DESCARGAR CERTIFICADOS'}
               </a>
             </h1>
           </div>
         </div>
         <p className={styles.disclaimer}>
-          Longfield Polymers is the trading name of Longfield Chemicals a
-          limited company which is registered in England and Wales with number
-          925463 VAT no. GB 344 1687 51, BE 074 8632 538, NL 826434137B01
-          Registered office - Suite 1, Floor 1, Chelford House, Gadbrook Park,
-          Northwich, CW9 7LN{' '}
+          {lang === 'english'
+            ? 'Longfield Polymers is the trading name of Longfield Chemicals a limited company which is registered in England and Wales with number 925463 VAT no. GB 344 1687 51, BE 074 8632 538, NL 826434137B01 Registered office - Suite 1, Floor 1, Chelford House, Gadbrook Park, Northwich, CW9 7LN'
+            : 'Longfield Polymers es el nombre comercial de Longfield Chemicals, una sociedad limitada registrada en Inglaterra y Gales con número 00925463. Domicilio fiscal - Suite 1, Planta 1, Chelford House, Gadbrook Park, Northwich, CW9 7LN'}
         </p>
       </div>
     </footer>

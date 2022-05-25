@@ -24,6 +24,7 @@
   text-align: center;
   font-size: 1.5rem;
   font-weight: 300;
+  max-width: 50%;
 }
 
 .column img {
@@ -32,8 +33,13 @@
 
 .column p {
   margin-bottom: 80px;
-  max-width: 650px;
+  /* max-width: 650px; */
+  max-width: 500px;
   max-width: 75%;
+}
+
+.minHeight {
+  min-height: 120px;
 }
 
 @media (max-width: 1024px) {

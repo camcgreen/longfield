@@ -2,18 +2,18 @@ import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import styles from '../styles/PolymerDistribution.module.css';
 import Header from '../components/header';
-import Partnered from '../components/partnered';
 import Footer from '../components/footer';
 import Menu from '../components/menu';
 
 const PolymerDistribution = () => {
   const [lang, setLang] = useState('english');
+  useEffect(() => {
+    const lang = localStorage.getItem('lang');
+    lang && setLang(lang);
+  }, []);
   const handleCallback = (childData) => {
     setLang(childData);
   };
-  useEffect(() => {
-    console.log(lang);
-  }, [lang]);
   return (
     <>
       <Head>
@@ -31,17 +31,17 @@ const PolymerDistribution = () => {
           <h1>
             {lang === 'english'
               ? 'As a globally trusted polymer distributor, with supply partners all over the world, we are able to provide a reliable and efficient service for all your requirements.'
-              : 'Como el principal distribuidor independiente de polímeros del Reino Unido, con socios de suministro en todo el mundo, podemos brindar un servicio confiable y eficiente para todos sus requisitos.'}
+              : 'Como distribuidor de polímeros de confianza a nivel mundial, con socios de suministro en todo el mundo, podemos ofrecer un servicio fiable y eficaz para todas sus necesidades.'}
           </h1>
           <p>
             {lang === 'english'
               ? 'Underpinned with considerable investment in technology, our efficient Europe-wide logistics network and strategically positioned UK distribution hubs ensure we deliver the right product in time at the right price.'
-              : 'Como distribuidor de polímeros de confianza a nivel mundial, con socios de suministro en todo el mundo, podemos brindar un servicio rápido y eficiente para todos sus requisitos. Desde pedidos de palés hasta entregas en remolque, damos el mismo nivel de enfoque, dedicación y compromiso a todos los pedidos de los clientes. Ya sea que estemos distribuyendo a nivel local o global, nos esforzamos por mantener relaciones sólidas con todos nuestros clientes y proveedores, garantizando una producción y distribución confiable y de alta calidad a un bajo costo para todos.'}
+              : 'Apoyados en una considerable inversión en tecnología, nuestra eficiente red de logística en toda Europa y los centros de distribución estrategicamente situados en el Reino Unido garantizan que entreguemos a nuestros clientes el producto adecuado a tiempo con un precio justo.'}
           </p>
         </div>
       </main>
-      <Footer />
-      <Menu />
+      <Footer lang={lang} />
+      <Menu lang={lang} />
     </>
   );
 };

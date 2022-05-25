@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from '../styles/Footer.module.css';
 
-const Footer = ({ lang }) => {
+const Footer = ({ lang, extraId }) => {
   const [showEurope, setShowEurope] = useState(true);
   const [showUsa, setShowUsa] = useState(true);
   const [showChina, setShowChina] = useState(true);
@@ -25,7 +25,7 @@ const Footer = ({ lang }) => {
     window.addEventListener('resize', setAddressState);
   }, []);
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id={extraId}>
       <div className='wrapper'>
         <div className={styles.content}>
           <ul className={`${styles.column} ${styles.links}`}>

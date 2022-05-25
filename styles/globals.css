@@ -58,3 +58,11 @@ input:focus {
   opacity: 1 !important;
   pointer-events: all !important;
 }
+
+@media (min-height: 2010px) {
+  #goToBottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+}

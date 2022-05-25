@@ -133,7 +133,7 @@ const Suppliers = () => {
           </h2>
         </div>
       </main>
-      <Footer lang={lang} />
+      <Footer lang={lang} extraId={'goToBottom'} />
       <Menu lang={lang} />
     </>
   );

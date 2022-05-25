@@ -159,9 +159,9 @@ const Footer = () => {
               <li>ZIBO</li>
               <li>SHANDONG PROVINCE</li>
               <li>CHINA</li>
-              <li style={{ height: 16.5 }}></li>
-              <li style={{ height: 16.5 }}></li>
-              <li style={{ height: 16.5 }}></li>
+              <li className={styles.liPlaceholder}></li>
+              <li className={styles.liPlaceholder}></li>
+              <li className={styles.liPlaceholder}></li>
               <li className={styles.email}>
                 <a
                   href='mailto:china@longchem.co.uk'
@@ -172,6 +172,7 @@ const Footer = () => {
                   E. china@longchem.co.uk
                 </a>
               </li>
+              <li>+86 186 1083 1479</li>
             </div>
           </ul>
           <ul className={`${styles.column} ${styles.form}`}>

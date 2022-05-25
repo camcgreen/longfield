@@ -4,7 +4,8 @@ import Button from './button';
 const Hero = () => {
   return (
     <section className={styles.hero}>
-      <img src='/hero.svg' alt='hero image' />
+      {/* <img src='/hero.svg' alt='hero image' /> */}
+      <img src='/hero-new.svg' alt='hero image' />
       <div className={styles.content}>
         <h1>Cost effective polymers.</h1>
         <h1>Delivered globally.</h1>

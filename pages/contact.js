@@ -15,6 +15,19 @@ const Contact = () => {
   const handleCallback = (childData) => {
     setLang(childData);
   };
+  const handleOnSubmit = async (e) => {
+    // e.preventDefault();
+    // let formData = {};
+    // Array.from(e.currentTarget.elements).forEach((field) => {
+    //   if (!field.name) return;
+    //   formData[field.name] = field.value;
+    // });
+    // fetch('/api/mail', {
+    //   method: 'post',
+    //   body: JSON.stringify(formData),
+    // });
+    // alert('thank you!');
+  };
   return (
     <>
       <Head>
@@ -45,31 +58,39 @@ const Contact = () => {
             ? 'We are always available to respond to enquires and are keen to build new customer and supplier relationships.'
             : 'Estamos siempre disponibles para resolver dudas y crear nuevas relaciones con clientes o proveedores.'}{' '}
         </p>
-        <form action='' className={styles.form}>
+        <form
+          action='https://formsubmit.co/c.c.green@outlook.com'
+          method='POST'
+          className={styles.form}
+          onSubmit={handleOnSubmit}
+        >
           <label htmlFor='name'>{lang === 'english' ? 'Name' : 'Nombre'}</label>
           <input
             type='text'
             id='name'
             name='name'
             placeholder={lang === 'english' ? 'Your name' : 'Su nombre'}
+            required
           />
           <label htmlFor='email'>Email</label>
           <input
-            type='text'
+            type='email'
             id='email'
             name='email'
             placeholder={lang === 'english' ? 'Your email' : 'Email'}
+            required
           />
           <label htmlFor='phone'>
             {lang === 'english' ? 'Phone' : 'Teléfono'}
           </label>
           <input
-            type='text'
+            type='tel'
             id='phone'
             name='phone'
             placeholder={
               lang === 'english' ? 'Your phone number' : 'Numero de teléfono'
             }
+            required
           />
           <label htmlFor='message'>
             {lang === 'english' ? 'Your message' : 'Mensaje'}
@@ -82,6 +103,7 @@ const Contact = () => {
             placeholder={
               lang === 'english' ? 'Type message' : 'Escriba su mensaje'
             }
+            required
           />
           <Button
             text={lang === 'english' ? 'SEND MESSAGE' : 'ENVIAR MENSAJE'}

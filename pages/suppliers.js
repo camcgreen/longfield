@@ -75,7 +75,13 @@ const Suppliers = () => {
             >
               <img src='/c-lg.svg' alt='LG Chem' />
             </a>
-            <img src='/c-locapol.svg' className={styles.long} alt='Locapol' />
+            <div>
+              <img
+                src='/c-locapol.svg'
+                className={styles.locapol}
+                alt='Locapol'
+              />
+            </div>
             <div>
               <img
                 src='/c-long.png'

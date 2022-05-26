@@ -28,7 +28,11 @@ const Header = ({ parentCallback }) => {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <Link href='/'>
-          <img className={styles.logo} src='/logo.png' alt='' />
+          <img
+            className={styles.logo}
+            src='/logo.svg'
+            alt='Longfield Polymers'
+          />
         </Link>
         <ul className={styles.links}>
           <Link href='/about'>

@@ -43,6 +43,10 @@
 }
 
 @media (max-width: 1024px) {
+  .column {
+    max-width: 75%;
+  }
+
   .services {
     /* flex-direction: column;
     align-items: center;
@@ -62,6 +66,10 @@
 }
 
 @media (max-width: 768px) {
+  .column {
+    max-width: 90%;
+  }
+
   .column img {
     height: 200px;
   }

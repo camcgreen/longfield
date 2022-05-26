@@ -59,7 +59,8 @@ const Contact = () => {
             : 'Estamos siempre disponibles para resolver dudas y crear nuevas relaciones con clientes o proveedores.'}{' '}
         </p>
         <form
-          action='https://formsubmit.co/c.c.green@outlook.com'
+          // action='https://formsubmit.co/c.c.green@outlook.com'
+          action='https://formsubmit.co/2733827370778e0a461d763724570bae'
           method='POST'
           className={styles.form}
           onSubmit={handleOnSubmit}

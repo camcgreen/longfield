@@ -176,7 +176,7 @@ const Footer = ({ lang, extraId }) => {
                   E. china@longchem.co.uk
                 </a>
               </li>
-              <li>+86 186 1083 1479</li>
+              {/* <li>+86 186 1083 1479</li> */}
             </div>
           </ul>
           <ul className={`${styles.column} ${styles.form}`}>

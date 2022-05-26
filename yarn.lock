@@ -368,6 +368,11 @@
   dependencies:
     "esutils" "^2.0.2"
 
+"embla-carousel-autoplay@^6.2.0":
+  "integrity" "sha512-3AxzeRwzgDR5aPcPXwdcrpm25A9yVB1ZE/0mQJJsOyfIfKrXu3wgSkI/cxQkCOxM54UjTVhiuhoJb8enpRa7FQ=="
+  "resolved" "https://registry.npmjs.org/embla-carousel-autoplay/-/embla-carousel-autoplay-6.2.0.tgz"
+  "version" "6.2.0"
+
 "embla-carousel-react@^6.2.0":
   "integrity" "sha512-XshB7pmmhso/fzENefflWw5/N3HqCjO8H5CkzQxuCQqV9w+bvEaBkjUZ6fxfqLUMMSKFWIQvMD6uo9f8oKS+2g=="
   "resolved" "https://registry.npmjs.org/embla-carousel-react/-/embla-carousel-react-6.2.0.tgz"

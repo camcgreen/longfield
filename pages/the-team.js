@@ -28,7 +28,7 @@ const Team = () => {
           <p style={{ maxWidth: lang === 'english' ? 700 : 900 }}>
             {lang === 'english'
               ? 'We strive to ensure that all of our team members uphold our core values, putting these at the heart of every decision they make.'
-              : 'Nos esforzamos por garantizar que todos los miembros de nuestro equipo defiendan nuestros valores, poniendo éstos en el centro de cada decisión que toman.'}
+              : 'Nos esforzamos en garantizar que todos los miembros de nuestro equipo defiendan nuestros valores, poniendo éstos en el centro de cada decisión que toman.'}
           </p>
           <p style={{ maxWidth: lang === 'english' ? 700 : 900 }}>
             {lang === 'english'

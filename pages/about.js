@@ -83,7 +83,10 @@ const About = () => {
               alt='Operation Clean Sweep'
               className={styles.sweep}
             />
-            <h1 className={styles.highlight}>
+            <h1
+              className={styles.highlight}
+              style={{ maxWidth: lang === 'english' ? '80%' : '100%' }}
+            >
               {lang === 'english'
                 ? '“Our culture is what differs Longfield. Our added value.”'
                 : '"Nuestra cultura es lo que distingue a Longfield. Nuestro valor añadido."'}

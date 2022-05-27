@@ -68,7 +68,8 @@ const Footer = ({ lang, extraId }) => {
                 }
               }}
             >
-              EUROPE <img src={showEurope ? '/fUp.svg' : '/fDown.svg'} alt='' />
+              {lang === 'english' ? 'EUROPE' : 'EUROPA'}
+              <img src={showEurope ? '/fUp.svg' : '/fDown.svg'} alt='' />
             </h1>
             <div
               className={styles.europe}
@@ -76,7 +77,9 @@ const Footer = ({ lang, extraId }) => {
                 display: showEurope ? 'block' : 'none',
               }}
             >
-              <li>SUITE 1, FLOOR 1</li>
+              <li>
+                {lang === 'english' ? 'SUITE 1, FLOOR 1' : 'SUITE 1, OFICINA 1'}
+              </li>
               <li>CHELFORD HOUSE</li>
               <li>GADBROOK PARK</li>
               <li>NORTHWICH</li>
@@ -166,7 +169,7 @@ const Footer = ({ lang, extraId }) => {
               <li className={styles.liPlaceholder}></li>
               <li className={styles.liPlaceholder}></li>
               <li className={styles.liPlaceholder}></li>
-              <li className={styles.email}>
+              <li className={`${styles.email} ${styles.emailChina}`}>
                 <a
                   href='mailto:china@longchem.co.uk'
                   target='_blank'

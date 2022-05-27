@@ -22,7 +22,7 @@ const Partnered = ({ lang }) => {
         </div>
         <p>
           {lang === 'english'
-            ? 'Longfield Polymers are proud partners with Louisiana based Sterling International, contributing to the Polymer Distributor’s £250m annual turnover.'
+            ? 'Longfield Polymers are partners with Louisiana based Sterling International, contributing to the Polymer Distributor’s £250m annual turnover.'
             : 'Longfield Polymers se enorgullece de ser socio de Sterling International, con sede en Luisiana y una facturación anual combinada de 250 millones de libras.'}
         </p>
       </div>

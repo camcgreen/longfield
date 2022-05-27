@@ -183,13 +183,15 @@ const Footer = ({ lang, extraId }) => {
             <h1>
               {lang === 'english' ? 'STAY UP TO DATE' : 'MANTENTE INFORMADO'}
             </h1>
-            <input
-              type='text'
-              placeholder={
-                lang === 'english' ? 'your email' : 'tu dirección de correo'
-              }
-            />
-            <button>{lang === 'english' ? 'Join' : 'Únete'}</button>
+            <form action='https://longchem.wufoo.com/forms/m1etjcyn006yvsz/#public'>
+              <input
+                type='text'
+                placeholder={
+                  lang === 'english' ? 'your email' : 'tu dirección de correo'
+                }
+              />
+              <button>{lang === 'english' ? 'Join' : 'Únete'}</button>
+            </form>
             <li>{lang === 'english' ? 'Follow us:' : 'Siguenos:'}</li>
             {/* <img className={styles.linkedin} src='/linkedin.svg' alt='' /> */}
             <img

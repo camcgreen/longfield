@@ -187,12 +187,12 @@ const Footer = ({ lang, extraId }) => {
               {lang === 'english' ? 'STAY UP TO DATE' : 'MANTENTE INFORMADO'}
             </h1>
             <form action='https://longchem.wufoo.com/forms/m1etjcyn006yvsz/#public'>
-              <input
+              {/* <input
                 type='text'
                 placeholder={
                   lang === 'english' ? 'your email' : 'tu dirección de correo'
                 }
-              />
+              /> */}
               <button>{lang === 'english' ? 'Join' : 'Únete'}</button>
             </form>
             <li>{lang === 'english' ? 'Follow us:' : 'Siguenos:'}</li>

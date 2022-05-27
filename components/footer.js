@@ -250,7 +250,7 @@ const Footer = ({ lang, extraId }) => {
           </div>
           <div className={`${styles.column} ${styles.legalLinks}`}>
             <h1>
-              <a href='/Certificates.pdf' download='Certificates'>
+              <a href='/Certificates.zip' download='Certificates'>
                 {lang === 'english'
                   ? 'DOWNLOAD CERTIFICATES'
                   : 'DESCARGAR CERTIFICADOS'}

@@ -29,7 +29,7 @@ const Endorsements = ({ lang }) => {
                   <img src='/c-formosa-plastics.png' alt='Formosa Plastics' />
                 </a>
                 <a
-                  href='https://www.fpcusa.com/'
+                  href='http://www.fpc.com.tw/fpcw/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -76,11 +76,17 @@ const Endorsements = ({ lang }) => {
             </div>
             <div className={styles.carouselSlide}>
               <div className={styles.carouselFlex}>
-                <img
-                  src='/c-long.png'
-                  className={styles.long}
-                  alt='Long Da Masterbatch'
-                />
+                <a
+                  href='https://longdamasterbatch.en.alibaba.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img
+                    src='/c-long.png'
+                    className={styles.long}
+                    alt='Long Da Masterbatch'
+                  />
+                </a>
                 <a
                   href='https://www.lottechem.com/en/index.do'
                   target='_blank'

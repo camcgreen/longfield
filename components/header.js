@@ -124,7 +124,15 @@ const Header = ({ parentCallback }) => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img className={styles.partner} src='/nav-sterling.svg' alt='' />
+            <img
+              className={styles.partner}
+              src={
+                lang === 'english'
+                  ? '/nav-sterling.svg'
+                  : '/nav-sterling-esp.svg'
+              }
+              alt=''
+            />
           </a>
         </div>
       </nav>

@@ -78,7 +78,11 @@ const About = () => {
                   : 'Como socio empresarial, empleador y miembro de la comunidad, nuestra gestión de la sostenibilidad nos permite seguir entregando a tiempo productos de bajo precio minimizando nuestro impacto medioambiental.'}
               </p>
             </div>
-            <img src='/clean-sweep.jpg' alt='' />
+            <img
+              src='/clean-sweep.svg'
+              alt='Operation Clean Sweep'
+              className={styles.sweep}
+            />
             <h1 className={styles.highlight}>
               {lang === 'english'
                 ? '“Our culture is what differs Longfield. Our added value.”'

@@ -61,7 +61,8 @@ const Contact = () => {
         <form
           // action='https://formsubmit.co/c.c.green@outlook.com'
           // action='https://formsubmit.co/2733827370778e0a461d763724570bae'
-          action='https://formsubmit.co/info@longchem.co.uk'
+          // action='https://formsubmit.co/info@longchem.co.uk'
+          action='https://formsubmit.co/4d7fb7fbae9b2ec0a2c0d35efb7fc6ae'
           method='POST'
           className={styles.form}
           onSubmit={handleOnSubmit}

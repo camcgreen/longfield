@@ -92,7 +92,7 @@ const Footer = ({ lang, extraId }) => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  E. info@longchem.co.uk
+                  info@longchem.co.uk
                 </a>
               </li>
             </div>
@@ -134,7 +134,7 @@ const Footer = ({ lang, extraId }) => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  E. americas@longchem.co.uk
+                  americas@longchem.co.uk
                 </a>
               </li>
             </div>
@@ -173,7 +173,7 @@ const Footer = ({ lang, extraId }) => {
                   rel='noopener noreferrer'
                   style={{ marginBottom: showChina ? 40 : 0 }}
                 >
-                  E. china@longchem.co.uk
+                  china@longchem.co.uk
                 </a>
               </li>
               {/* <li>+86 186 1083 1479</li> */}

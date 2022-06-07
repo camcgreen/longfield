@@ -362,7 +362,7 @@ const Team = () => {
                     src='/polaris.jpg'
                     alt='Polaris Zhang - Representative in China'
                   />
-                  {/* <div className={styles.overlay}>
+                  <div className={styles.overlay}>
                     <a
                       href='mailto:polaris@longchem.co.uk'
                       target='_blank'
@@ -370,12 +370,18 @@ const Team = () => {
                     >
                       polaris@longchem.co.uk
                     </a>
-                    <img
-                      className={styles.linkedinLogo}
-                      src='/random.svg'
-                      alt=''
-                    />
-                  </div> */}
+                    <a
+                      href='https://www.linkedin.com/in/polaris-zhang-48b12635/'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <img
+                        className={styles.linkedinLogo}
+                        src='/random.svg'
+                        alt=''
+                      />
+                    </a>
+                  </div>
                 </div>
                 <h2>Polaris Zhang</h2>
                 <h2>Representative in China</h2>

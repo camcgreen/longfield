@@ -26,55 +26,69 @@ const Suppliers = () => {
         <div className='wrapper'>
           <h1>{lang === 'english' ? 'Suppliers' : 'Proveedores'}</h1>
           <div className={styles.grid}>
-            <a
+            {/* <a
               href='https://epsan.com/'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-epsan.png' alt='Epsan' />
-            </a>
-            <a
+            </div>
+            {/* </a> */}
+            {/* <a
               href='https://www.fpcusa.com/'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-formosa-plastics.png' alt='Formosa Plastics' />
-            </a>
-            <a
+            </div>
+            {/* </a> */}
+            {/* <a
               href='http://www.fpc.com.tw/fpcw/'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-formosa-corp.png' alt='Formosa Plastics Corp' />
-            </a>
-            <a
+            </div>
+            {/* </a> */}
+            {/* <a
               href='https://www.ineos-styrolution.com/index.html'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-ineos.jpg' alt='Ineos Styrolution' />
-            </a>
-            <a
+            </div>
+            {/* </a> */}
+            {/* <a
               href='https://inno-comp.hu/'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-inno.png' className={styles.inno} alt='Inno-Comp' />
-            </a>
-            <a
+            </div>
+            {/* </a> */}
+            {/* <a
               href='https://www.kkpc.com/eng/'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-kumho.svg' alt='Kumho Petrochemical' />
-            </a>
-            <a
+            </div>
+            {/* </a> */}
+            {/* <a
               href='https://www.lgchem.com/main/index'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-lg.svg' alt='LG Chem' />
-            </a>
+            </div>
+            {/* </a> */}
             <div>
               <img
                 src='/c-locapol.svg'
@@ -82,59 +96,73 @@ const Suppliers = () => {
                 alt='Locapol'
               />
             </div>
-            <a
+            {/* <a
               href='https://longdamasterbatch.en.alibaba.com/'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img
                 src='/c-long.png'
                 className={styles.long}
                 alt='Long Da Masterbatch'
               />
-            </a>
-            <a
+            </div>
+            {/* </a> */}
+            {/* <a
               href='https://www.lottechem.com/en/index.do'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-lotte.png' alt='Lotte Chemical' />
-            </a>
-            <a
+            </div>
+            {/* </a> */}
+            {/* <a
               href='https://www.hip-petrohemija.com/home.8.html'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-petrohemija.jpeg' alt='Petrohemija' />
-            </a>
-            <a
+            </div>
+            {/* </a> */}
+            {/* <a
               href='https://www.petkim.com.tr/'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-petkim.svg' alt='Petkim' />
-            </a>
-            <a
+            </div>
+            {/* </a> */}
+            {/* <a
               href='https://www.sibur.ru/en/'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-sibur.svg' alt='Sibur' />
-            </a>
-            <a
+            </div>
+            {/* </a> */}
+            {/* <a
               href='https://www.sidpec.com/'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-sidpec.png' alt='Sidpec' />
-            </a>
-            <a
+            </div>
+            {/* </a> */}
+            {/* <a
               href='https://www.orlenunipetrol.cz/en/Pages/default.aspx'
               target='_blank'
               rel='noopener noreferrer'
-            >
+            > */}
+            <div>
               <img src='/c-unipetrol.png' alt='Unipetrol' />
-            </a>
+            </div>
+            {/* </a> */}
           </div>
           <div className={styles.overlay} />
           <h2>

@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }) {
         <Script strategy='lazyOnload' id='my-script-3'>
           {`
           var _iub = _iub || [];
-          _iub.csConfiguration = {"ccpaAcknowledgeOnDisplay":true,"ccpaApplies":true,"consentOnContinuedBrowsing":false,"enableCcpa":true,"floatingPreferencesButtonDisplay":"bottom-left","invalidateConsentWithoutLog":true,"lang":"en","perPurposeConsent":true,"siteId":2687402,"whitelabel":false,"cookiePolicyId":49805495, "banner":{ "acceptButtonDisplay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"bottom","rejectButtonDisplay":true }};
+          _iub.csConfiguration = {"ccpaAcknowledgeOnDisplay":true,"ccpaApplies":true,"consentOnContinuedBrowsing":false,"enableCcpa":true,"floatingPreferencesButtonDisplay":"bottom-left","invalidateConsentWithoutLog":true,"lang":"en","perPurposeConsent":true,"siteId":2687402,"whitelabel":false,"cookiePolicyId":49805495, "banner":{ "acceptButtonDisplay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"float-bottom-left","rejectButtonDisplay":true }};
         `}
         </Script>
         <Script

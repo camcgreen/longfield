@@ -192,7 +192,7 @@ const Team = () => {
             <div className={styles.row2}>
               <div className={styles.profile}>
                 <div className={styles.image}>
-                  <img src='/mark.jpg' alt='Neil Croft - Head of Operations' />
+                  <img src='/neil.jpg' alt='Neil Croft - Head of Operations' />
                   <div className={styles.overlay}>
                     <a
                       href='mailto:neil@longchem.co.uk'

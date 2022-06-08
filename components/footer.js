@@ -212,7 +212,11 @@ const Footer = ({ lang, extraId }) => {
         <div className={styles.legal}>
           <div className={`${styles.column} ${styles.legalLinks}`}>
             <h1>
-              <a href='path_to_file' download='proposed_file_name'>
+              <a
+                href='https://www.iubenda.com/privacy-policy/49805495'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 {lang === 'english'
                   ? 'PRIVACY POLICY'
                   : 'Política de privacidad'.toUpperCase()}

@@ -4,11 +4,22 @@ import Script from 'next/script';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    // setTimeout(() => {
-    //   document.querySelector(
-    //     '.iubenda-tp-btn[data-tp-float]:not([data-tp-anchored])'
-    //   ).style.margin = '32px !important';
-    // }, 2000);
+    setTimeout(() => {
+      // document.querySelector(
+      //   '.iubenda-tp-btn[data-tp-float]:not([data-tp-anchored])'
+      // ).style.margin = '0px 0px 50px 25px !important';
+      // document.querySelector('.iubenda-tp-btn').style.margin =
+      //   '0px 0px 50px 25px !important';
+      // const btn = document.querySelector(
+      //   '.iubenda-tp-btn[data-tp-float]:not([data-tp-anchored])'
+      // );
+      // console.log(btn.style);
+      // btn.style.transform = 'translateY(-25px !important)';
+      // document.querySelector(
+      //   '.iubenda-tp-btn[data-tp-float]:not([data-tp-anchored]'
+      // ).style.paddingBottom = '25px !important';
+      // btn.style.bottom = '50px !important';
+    }, 2000);
     // document.querySelector(
     //   '.iubenda-tp-btn[data-tp-float]:not([data-tp-anchored])'
     // ).style.margin = '32px !important';

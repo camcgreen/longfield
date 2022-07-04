@@ -142,7 +142,12 @@ const Suppliers = () => {
               rel='noopener noreferrer'
             > */}
             <div>
-              <img src='/c-sibur.svg' alt='Sibur' />
+              {/* <img src='/c-sibur.svg' alt='Sibur' /> */}
+              <img
+                src='/c-locapol.svg'
+                className={styles.locapol}
+                alt='Locapol'
+              />
             </div>
             {/* </a> */}
             {/* <a

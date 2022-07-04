@@ -117,7 +117,8 @@ const Endorsements = ({ lang }) => {
                   target='_blank'
                   rel='noopener noreferrer'
                 > */}
-                <img src='/c-sibur.svg' alt='Sibur' />
+                {/* <img src='/c-sibur.svg' alt='Sibur' /> */}
+                <img src='/c-locapol.svg' alt='Locapol' />
                 {/* </a> */}
                 {/* <a
                   href='https://www.sidpec.com/'

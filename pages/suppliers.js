@@ -145,7 +145,7 @@ const Suppliers = () => {
               {/* <img src='/c-sibur.svg' alt='Sibur' /> */}
               <img
                 src='/c-locapol-reverse.svg'
-                className={styles.locapol}
+                className={`${styles.locapol} ${styles.locapolReversed}`}
                 alt='Locapol'
               />
             </div>

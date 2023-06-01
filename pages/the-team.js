@@ -335,7 +335,7 @@ const Team = () => {
                                 <h2>Zoe Gallimore</h2>
                                 <h2>Accounts Assistant</h2>
                             </div>
-                            <div className={styles.suppProfile}>
+                            {/* <div className={styles.suppProfile}>
                                 <div className={styles.image}>
                                     <img
                                         src='/eleni.jpg'
@@ -353,6 +353,26 @@ const Team = () => {
                                     </div>
                                 </div>
                                 <h2>Eleni Devaney</h2>
+                                <h2>Logistics Coordinator</h2>
+                            </div> */}
+                            <div className={styles.suppProfile}>
+                                <div className={styles.image}>
+                                    <img
+                                        src='/alex.jpg'
+                                        alt='Alex Martin - Logistics Controller'
+                                    />
+                                    <div className={styles.overlay}>
+                                        <a
+                                            href='mailto:alex@longchem.co.uk'
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                            style={{ marginBottom: 0 }}
+                                        >
+                                            alex@longchem.co.uk
+                                        </a>
+                                    </div>
+                                </div>
+                                <h2>Alex Martin</h2>
                                 <h2>Logistics Coordinator</h2>
                             </div>
                             <div className={styles.suppProfile}>

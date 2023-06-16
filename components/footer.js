@@ -311,8 +311,9 @@ const Footer = ({ lang, extraId }) => {
                 </div>
                 <p className={styles.disclaimer}>
                     {lang === 'english'
-                        ? 'Longfield Polymers is the trading name of Longfield Chemicals a limited company which is registered in England and Wales with number 00925463 VAT no. GB 344 1687 51, BE 074 8632 538, NL 826434137B01 Registered office - One Express, 1 George Leigh Street, Manchester, England, M4 5DL'
-                        : 'Longfield Polymers es el nombre comercial de Longfield Chemicals, una sociedad limitada registrada en Inglaterra y Gales con número 00925463. Domicilio fiscal - One Express, 1 George Leigh Street, Manchester, England, M4 5DL'}
+                        ? 'Longfield Chemicals a limited company which is registered in England and Wales with number 00925463 VAT no. GB 344 1687 51, BE 074 8632 538, NL 826434137B01, DE 360911562. Registered office - One Express, 1 George Leigh Street, Manchester, England, M4 5DL'
+                        : // : 'Longfield Polymers es el nombre comercial de Longfield Chemicals, una sociedad limitada registrada en Inglaterra y Gales con número 00925463. Domicilio fiscal - One Express, 1 George Leigh Street, Manchester, England, M4 5DL'}
+                          'Longfield Polymers es el nombre comercial de Longfield Chemicals, una sociedad limitada registrada en Inglaterra y Gales con número 00925463 VAT no. GB 344 1687 51, BE 074 8632 538, NL 826434137B01, DE 360911562. Domicilio fiscal - One Express, 1 George Leigh Street, Manchester, England, M4 5DL'}
                 </p>
             </div>
         </footer>
